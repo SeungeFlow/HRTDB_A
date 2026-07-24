@@ -1,9 +1,159 @@
-repository: for_instance
-role: AI_INSTANCE_ALIGNMENT_REPOSITORY
-state: FUNCTIONAL_INITIAL_STRUCTURE
-default_branch: main
-seat_model:
-  axes: [X, Y, Z, T]
-  profile_count: 15
-relation_interface: ACTIVE
-mutation_authority: DECLARED
+document_type: CURRENT_EFFECTIVE_STATE_REGISTRY
+document_class: AI_INSTANCE_OPERATIONAL_RECOVERY_SURFACE
+schema_version: 1.0.0
+recorded_at: '2026-07-24'
+state: CURRENT
+repository:
+  owner: SeungeFlow
+  current_name: HRTDB_A
+  qualified_name: SeungeFlow/HRTDB_A
+  seat_code: A
+  former_name: for_instance
+  default_branch: main
+  workspace_class: AI_INSTANCE_OPERATING_WORKSPACE
+  primary_reader: AI_INSTANCE
+rule_layer:
+  name: for_instance
+  state: ACTIVE
+  role: INSTANCE_SEAT_ROLE_ASSIGNMENT_AND_ALIGNMENT
+overall_coordination:
+  fixed_seat: HRTDB_A::gpt.xyzt
+  current_occupant: gpt.logi
+  role: RESULT_DATA_TO_TRACK_DB_PROMOTION_AND_REFERENCE_HANDOFF_AI_SYSTEM
+  occupation: OVERALL_COORDINATION
+  analytic_instance_member: false
+source_data_contract:
+  gpt_logi:
+  - EXTERNAL_WEB_DATA
+  - AI_HELD_DATA
+  - VERIFIED_PRIOR_GITHUB_ASSETS
+  gpt_think:
+  - TRACK_DB_DOCUMENT
+  same_cycle_self_reference: PROHIBITED
+  frozen_output_as_next_cycle_source: ALLOWED
+database_unit_contract:
+  one_track_db: ONE_REGISTERED_RESULT_DATA_DOCUMENT
+  one_hash_db: ONE_DOCUMENT
+  branch_is_database: false
+  directory_is_database: false
+  registry_is_database: false
+track_db:
+  storage_surface:
+    repository: SeungeFlow/HRTDB_A
+    branch: TrackDB
+    root: 06_track_db
+  canonical_document_count: 2
+  canonical_documents:
+  - source_result_data_sha256: 9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4
+    registered_filename: 9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4.A.md
+    structural_promotion_gate: PASS
+    database_unit: ONE_TRACK_DB_DOCUMENT
+  - source_result_data_sha256: 72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b
+    registered_filename: 72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b.A.md
+    structural_promotion_gate: PASS
+    database_unit: ONE_TRACK_DB_DOCUMENT
+  phase2A_registration:
+    executor_report_state: PASS_REPORTED
+    reported_verdict: PASS_TRACK_DB_COPIED_REGISTERED_TO_HRTDB_A_AND_READBACK_VERIFIED
+    reported_unique_authorized_object_count: 11
+    reported_target_commit_push: PASS
+    reported_target_remote_readback: PASS
+    closure_bundle_filename: 29b0747123b8c88bd1d1a8b26b76763a58db638b2f6e0a5ad1649964a4186263.A.zip
+    closure_bundle_received_by_gpt_logi: false
+    independent_exact_byte_verification: PENDING
+    current_verdict: PROVISIONAL_PASS_PENDING_EXACT_CLOSURE
+  head_retrieval:
+    state_after_this_deployment: CURRENT
+    root_index: HRTDB_A@TrackDB:06_track_db/04_head/HEAD_INDEX.json
+    head_contract: HRTDB_A@TrackDB:06_track_db/04_head/contracts/cf7dcf65f3732777db4920563cd2f344e607540914bc226eac180ec0890f8deb.A.md
+    current_head_count: 2
+    retrieval_order:
+    - ROOT_INDEX
+    - RELEVANT_PREFIX_SHARD
+    - RELEVANT_HEAD_OBJECT
+    - SELECTED_FULL_TRACK_DB
+lrsdonet_b:
+  repository: SeungeFlow/LRSDoNet_B
+  fixed_seat: B
+  current_xyzt_instance: gpt.think
+  source_data_class: TRACK_DB_DOCUMENT
+  target_database_class: HASH_DB_DOCUMENT
+  phase2AB:
+    goal: ALL_CURRENT_BRANCHES_README_ONLY_MINIMALIZATION
+    state: NOT_COMPLETE
+    corrected_runner_filename: c703eabbb0dd63acb1428f562b4bdd6aa325859801f54e0c64c199d17786c6d8.zip
+    corrected_runner_sha256: c703eabbb0dd63acb1428f562b4bdd6aa325859801f54e0c64c199d17786c6d8
+    exact_runner_bytes_received_by_gpt_logi: false
+    execution_authorized_by_gpt_logi: false
+    closure_bundle_state: NOT_AVAILABLE
+publication_binding:
+  record: 21498643
+  version: 1.0.0
+  published_at: '2026-07-23'
+  package_filename: 49670e465bf466556d2658b67bd2f479dab32a3b586e781448866a50956cac86.A.zip
+  package_sha256: 49670e465bf466556d2658b67bd2f479dab32a3b586e781448866a50956cac86
+  package_exact_byte_verification: PASS
+  zip_member_count: 91
+  indexed_state_object_count: 89
+  repository_binding_file_state: UPDATE_REQUIRED
+repository_normalization:
+  readme:
+    semantic_revision: AI_INSTANCE_BOOTSTRAP_ENTRY_FORMED
+    user_reported_remote_update: true
+    web_raw_eventual_convergence_reported: true
+    commit_tree_blob_exact_closure: PENDING_GPT_GITHUB_EVIDENCE
+  repo_identity: ALIGNED_BY_THIS_REVISION
+  current_status: ALIGNED_BY_THIS_REVISION
+  instance_generation_index: UPDATE_REQUIRED
+  gpt_xyzt_seat_contract: REVIEW_REQUIRED
+  active_schema_binding: UPDATE_REQUIRED
+  track_db_pointer_on_main: ADD_OR_VERIFY_REQUIRED
+  file_object_identity_contract: 00_manifest/7e317d73e0695187852ee80c4af5c175208be3833a9d6bef6f68c7e206a8e6a4.A.md
+  track_db_head_layer: DEPLOYMENT_CANDIDATE
+input_object_set:
+- class: ACTIVE_SCHEMA_PUBLICATION_PACKAGE
+  sha256: 49670e465bf466556d2658b67bd2f479dab32a3b586e781448866a50956cac86
+  verification: PASS
+- class: GPT_GITHUB_WORK_RESULT_HANDOFF
+  sha256: 5bb59054dedc786fe1d9e101d758bf95f9d3afe3505d80e860b7fe95a65cd30b
+  state: RECEIVED
+active_directive:
+  count: 0
+  execution_state: NONE
+  note: The gpt.github report recommends a runner, but exact runner bytes and prerequisite evidence are not present in the
+    current gpt.logi input set.
+mutation_authority:
+  general_instance_remote_mutation: PROHIBITED
+  executor: gpt.github
+  requires_approved_exact_handoff: true
+  force_push: false
+  force_with_lease: false
+  reset: false
+  history_rewrite: false
+  branch_recreation: false
+  branch_delete: false
+  repository_delete_recreate: false
+  non_atomic_push_fallback: false
+  hash_named_object_overwrite: false
+anomaly_state:
+  class: BLOCKING_ANOMALY_FOR_COMPLETE_REFERENCEABLE_STATE
+  blocking_items:
+  - PHASE2A_EXACT_CLOSURE_BUNDLE_NOT_RECEIVED
+  - TRACKDB_COMMIT_TREE_BLOB_NOT_INDEPENDENTLY_VERIFIED
+  - PHASE2AB_NOT_COMPLETE
+  - CORRECTED_PHASE2AB_RUNNER_EXACT_BYTES_NOT_RECEIVED
+  - INSTANCE_GENERATION_INDEX_NOT_YET_NORMALIZED
+  - GPT_XYZT_FIXED_CONTRACT_AND_DYNAMIC_OCCUPIED_STATE_REQUIRE_REVIEW
+  - LATEST_ZENODO_PUBLICATION_BINDING_NOT_YET_REGISTERED_IN_REPOSITORY
+  - MAIN_TO_TRACKDB_CANONICAL_POINTER_NOT_YET_VERIFIED
+  nonblocking_observations:
+  - BRANCH_BLOB_AND_RAW_SURFACES_MAY_CONVERGE_AFTER_PROPAGATION_DELAY
+complete_referenceable_state:
+  verdict: HOLD
+  required_final_verdict: PASS_HRTDB_A_COMPLETE_REFERENCEABLE_STATE
+  may_open_lrsdonet_b_hash_db_design: false
+next_safe_action:
+- GPT_GITHUB_PREFLIGHT_AND_ATOMIC_MULTI_BRANCH_DEPLOYMENT
+- VERIFY_FILE_IDENTITY_CONTRACT_REMOTE_READBACK
+- VERIFY_TRACK_DB_HEAD_ROOT_SHARD_OBJECT_FULL_DOCUMENT_ROUTE
+- RECEIVE_PHASE2A_AND_PHASE2AB_EXACT_CLOSURE_EVIDENCE

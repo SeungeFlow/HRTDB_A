@@ -3,6 +3,14 @@
 `HRTDB_A`는 외부 Web 자료와 AI가 보유한 Data를 분석·검산하여 **문서형 Track DB 지식자산**으로 형성하고, 그 자산을 다음 System이 안정적으로 참조할 수 있도록 등록·계보·원격상태를 닫는 Repository다.
 
 ```text
+Primary Reader
+→ 새로 생성되거나 작업을 이어받은 AI Instance
+
+Repository Purpose
+→ Seat·Role·Current State·Source Data·Head Index를 읽어 작업 가능한 상태를 형성
+```
+
+```text
 Repository Seat      : A
 Current Repository   : SeungeFlow/HRTDB_A
 Former Repository    : SeungeFlow/for_instance
@@ -190,8 +198,13 @@ External Web Data + AI-held Data
 - 다음 System이 참조할 수 있는 현재 경계 폐쇄
 
 ```text
-Result.Data ≠ Track DB
-Result.Data → gpt.logi Promotion Gate → Track DB Document
+Result.Data
+→ GitHub 등록 전 Runtime 결과상태
+
+Track DB
+→ HRTDB_A에 등록된 하나의 Result.Data 문서
+
+Track DB = Registered Result.Data Document
 ```
 
 ---
@@ -238,6 +251,26 @@ Registry·Index·Lineage·Closure
 ```
 
 Phase 2A의 원격 등록 PASS는 보고되었으나, 최종 Complete State는 Exact Closure Evidence 검산 뒤에만 선언한다.
+
+### Track DB Head·Context Head 탐색층
+
+```text
+HRTDB_A@TrackDB:06_track_db/04_head/HEAD_INDEX.json
+→ Relevant Prefix Shard
+→ Relevant Head Object
+→ Selected Full Track DB
+```
+
+Current Head Contract:
+
+```text
+06_track_db/04_head/contracts/cf7dcf65f3732777db4920563cd2f344e607540914bc226eac180ec0890f8deb.A.md
+```
+
+```text
+Head ≠ Track DB
+Context Head ≠ Track DB
+```
 
 ---
 
@@ -351,6 +384,14 @@ Package 안의 `DOI_PENDING`은 게시 전 동결상태이며, 외부 Zenodo Rec
 
 ## 11. File Identity와 등록주소
 
+Current Contract:
+
+```text
+00_manifest/7e317d73e0695187852ee80c4af5c175208be3833a9d6bef6f68c7e206a8e6a4.A.md
+```
+
+AI 인스턴스는 설명형 파일명이나 Framework `(숫자)` suffix만으로 객체를 선택하지 않는다.
+
 ### Runtime Source Object
 
 ```text
@@ -456,16 +497,18 @@ Blocking·Unresolved 상태 보존
 ## 14. Repository 읽기 경로
 
 1. [`00_manifest`](00_manifest/REPO_IDENTITY.md) — Repository Identity·Purpose·Current State·Boundary
-2. [`01_seat_model`](01_seat_model/README.md) — Seat·Instance·Occupation·X/Y/Z/T
-3. [`gpt.xyzt`](01_seat_model/gpt.xyzt.md) — 고정 통합관제 Seat와 현재 Occupant
-4. [`02_instance_registry`](02_instance_registry/README.md) — Instance·Capability Registry
-5. [`03_relation_interface`](03_relation_interface/README.md) — Assignment Request·Response·Handoff
-6. [`04_assignment`](04_assignment/README.md) — Assignment 객체와 예제
-7. [`05_team_profiles`](05_team_profiles/README.md) — Generic Seat Profile
-8. [`06_operation`](06_operation/ASSIGNMENT_METHOD.md) — 운영·Directive·Mutation 계약
-9. [`07_tests`](07_tests/README.md) — 구조·운영 무결성 Test
-10. [`08_history`](08_history/README.md) — 변경·교정·Closure 계보
-11. [`09_active_schema_binding`](09_active_schema_binding/README.md) — Zenodo·Active_Schema 접속표면
+2. [`File Object Identity Contract`](00_manifest/7e317d73e0695187852ee80c4af5c175208be3833a9d6bef6f68c7e206a8e6a4.A.md) — Hash Filename·Transport Suffix·A/B/C Seat
+3. [`01_seat_model`](01_seat_model/README.md) — Seat·Instance·Occupation·X/Y/Z/T
+4. [`gpt.xyzt`](01_seat_model/gpt.xyzt.md) — 고정 통합관제 Seat와 현재 Occupant
+5. [`02_instance_registry`](02_instance_registry/README.md) — Instance·Capability Registry
+6. [`03_relation_interface`](03_relation_interface/README.md) — Assignment Request·Response·Handoff
+7. [`04_assignment`](04_assignment/README.md) — Assignment 객체와 예제
+8. [`05_team_profiles`](05_team_profiles/README.md) — Generic Seat Profile
+9. [`06_operation`](06_operation/ASSIGNMENT_METHOD.md) — 운영·Directive·Mutation 계약
+10. `HRTDB_A@TrackDB:06_track_db/04_head/HEAD_INDEX.json` — Track DB 선택검색 Root Index
+11. [`07_tests`](07_tests/README.md) — 구조·운영 무결성 Test
+12. [`08_history`](08_history/README.md) — 변경·교정·Closure 계보
+13. [`09_active_schema_binding`](09_active_schema_binding/README.md) — Zenodo·Active_Schema 접속표면
 
 ---
 

@@ -1,0 +1,31 @@
+document_type: GPT_XYZT_SEAT_STATE_SEPARATION_TRANSITION
+document_class: SEMANTIC_POSITION_CONTRACT_MIGRATION_RECORD
+state: CURRENT_CANDIDATE
+repository: SeungeFlow/HRTDB_A
+repository_seat_code: A
+target_semantic_path: 01_seat_model/gpt.xyzt.md
+transition:
+  from_document_class: FIXED_SEAT_CONTRACT_AND_OCCUPIED_STATE_CHECKPOINT
+  to_document_class: STABLE_OVERALL_COORDINATION_POSITION_CONTRACT
+  reason:
+  - FIXED_SEAT_AND_DYNAMIC_OCCUPIED_STATE_WERE_MIXED
+  - CYCLE_0002_STATE_WAS_EMBEDDED_IN_A_STABLE_ENTRY_FILE
+  - ACTIVE_DIRECTIVE_PAYLOAD_WAS_EMBEDDED_IN_A_SEAT_CONTRACT
+  - RESULT_DATA_AND_TRACK_DB_BOUNDARIES_REQUIRED_CORRECTION
+  - CURRENT_OCCUPANT_MUST_BE_RESOLVED_FROM_CURRENT_STATUS
+preservation:
+  previous_semantic_revision: PRESERVE_IN_GIT_HISTORY
+  previous_cycle_0002_state: HISTORICAL_NOT_CURRENT
+  previous_directive_payload: HISTORICAL_OR_SUPERSEDED_RELATION_AS_RECORDED
+  history_erasure: false
+  hash_named_object_overwrite: false
+current_state_routes:
+  occupant_cycle_stage_anomaly: 00_manifest/CURRENT_STATUS.yaml
+  active_directive: 06_operation current individual directive
+  past_state_and_directive_lineage: 08_history/
+  track_db_registry_lineage_closure: HRTDB_A@TrackDB/06_track_db/
+  publication_binding: 09_active_schema_binding/
+workspace_contract:
+  windows_canonical_root: C:\Users\USER\Downloads
+  other_windows_workspace: NONE
+remote_mutation: false
