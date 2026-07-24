@@ -6,13 +6,16 @@
   "branch": "TrackDB",
   "routing_rule": "FIRST_TWO_HEX_OF_TRACK_DB_HASH",
   "reading_rule": [
+    "READ_SOURCE_INTAKE_INTERFACE",
+    "READ_TRACK_DB_CATALOG",
+    "SELECT_RELEVANT_TRACK_DB_HASHES",
     "READ_ROOT_INDEX",
-    "READ_ONLY_RELEVANT_PREFIX_SHARD",
+    "READ_ONLY_RELEVANT_PREFIX_SHARDS",
     "READ_ONLY_RELEVANT_HEAD_OBJECTS",
     "LOAD_FULL_TRACK_DB_ONLY_WHEN_REQUIRED"
   ],
   "head_contract_path": "06_track_db/04_head/contracts/cf7dcf65f3732777db4920563cd2f344e607540914bc226eac180ec0890f8deb.A.md",
-  "current_track_db_head_count": 2,
+  "current_track_db_head_count": 3,
   "shards": [
     {
       "prefix": "72",
@@ -23,6 +26,15 @@
       "prefix": "9d",
       "path": "06_track_db/04_head/shards/9d.json",
       "entry_count": 1
+    },
+    {
+      "prefix": "c0",
+      "path": "06_track_db/04_head/shards/c0.json",
+      "entry_count": 1
     }
-  ]
+  ],
+  "source_intake_interface_path": "06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md",
+  "track_db_catalog_path": "06_track_db/00_interface/TRACK_DB_CATALOG.json",
+  "consumer_repository": "SeungeFlow/LRSDoNet_B",
+  "consumer_seat": "LRSDoNet_B::gpt.xyzt"
 }

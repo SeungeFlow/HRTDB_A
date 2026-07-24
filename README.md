@@ -1,3 +1,55 @@
+# HRTDB_A Track DB Source Surface
+
+이 Branch는 HRTDB_A가 등록한 문서형 Track DB와 그 탐색·계보·Promotion 객체를 보관한다.
+
+```text
+One Track DB
+=
+One Registered Result.Data Document
+```
+
+## HRTDB_A → LRSDoNet_B
+
+`LRSDoNet_B::gpt.xyzt`의 `gpt.think`가 Track DB를 원천 Data로 읽을 때 다음 순서를 사용한다.
+
+```text
+README.md
+→ 06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md
+→ 06_track_db/00_interface/TRACK_DB_CATALOG.json
+→ 06_track_db/04_head/HEAD_INDEX.json
+→ Relevant Shard
+→ Relevant Head
+→ Selected Full Track DB
+```
+
+Current Stable Entry:
+
+- [`HRTDB_A_TO_LRSDoNet_B.md`](06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md)
+- [`TRACK_DB_CATALOG.json`](06_track_db/00_interface/TRACK_DB_CATALOG.json)
+- [`HEAD_INDEX.json`](06_track_db/04_head/HEAD_INDEX.json)
+- [`Head Retrieval Contract`](06_track_db/04_head/contracts/cf7dcf65f3732777db4920563cd2f344e607540914bc226eac180ec0890f8deb.A.md)
+
+```text
+Catalog ≠ Track DB
+Head ≠ Track DB
+Track DB ≠ Hash DB
+Source Intake ≠ Repository Merge
+relation is not merge.
+```
+
+---
+
+## Inherited Repository Alignment Context
+
+아래 내용은 원격 `TrackDB/README.md`에 존재하던 Repository Alignment Context다.
+
+```text
+Predecessor Git Blob Exact Byte SHA-256:
+57e213f8402f0e3fc9df3f07029e6fd57336fbc7ff6d0f822444eb0e56db1b63
+```
+
+새 Track DB 진입경로를 앞에 추가하되, 아래의 기존 4,287바이트는 삭제·요약·재작성하지 않고 원문 Byte 순서대로 보존한다.
+
 # for_instance
 
 `for_instance`는 AI Instance를 현재 작업의 기능 자리(Seat)에 정렬하고,

@@ -1,0 +1,45 @@
+{
+  "object_class": "TRACK_DB_INDEX_ENTRY",
+  "state": "CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "track_db": {
+    "hash": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3",
+    "filename": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "path": "06_track_db/01_result_data/c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_FOUNDATIONAL_TRACK_DB_ASSET",
+    "subject_id": "FOUNDATIONAL_TRACK_DB_ASSET",
+    "cycle_id": "FOUNDATIONAL_TRACK_DB_ASSET",
+    "result_data_record_count": 15,
+    "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS"
+  },
+  "relations": {
+    "promotion_verification_hash": "3a072480afebd7115094a4d8420c6e17445c6b679ba2492b101010a069e103c8",
+    "promotion_verification_path": "06_track_db/05_promotion/3a072480afebd7115094a4d8420c6e17445c6b679ba2492b101010a069e103c8.A.json",
+    "lineage_hash": "9e764f9225d6a1c646af3f4c6e2a6af9e2f73cff8fcd100fb7076b4ea312e1c8",
+    "lineage_path": "06_track_db/03_lineage/9e764f9225d6a1c646af3f4c6e2a6af9e2f73cff8fcd100fb7076b4ea312e1c8.A.json",
+    "head_object_hash": "530e5d1711a39b9a6803813f0d62c3d73e95ae13d5dfb913bcaee67a7a58646b",
+    "head_object_path": "06_track_db/04_head/objects/530e5d1711a39b9a6803813f0d62c3d73e95ae13d5dfb913bcaee67a7a58646b.A.json",
+    "head_root_index_path": "06_track_db/04_head/HEAD_INDEX.json",
+    "head_shard_path": "06_track_db/04_head/shards/c0.json",
+    "source_intake_interface_path": "06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md",
+    "catalog_path": "06_track_db/00_interface/TRACK_DB_CATALOG.json"
+  },
+  "retrieval": {
+    "hash_prefix": "c0",
+    "keywords": [
+      "Reality_Abstract",
+      "Property_Direction",
+      "State_Phenomenon_Situation_Environment_Event",
+      "Typed_Origin",
+      "Center_Family",
+      "Count_Measure_Index",
+      "Stabilization_Activation_Continuity_Reactivation",
+      "Provenance_Identity"
+    ],
+    "full_document_required_when": [
+      "adjudicating identity, origin, center, reactivation, or model–reality claims",
+      "reviewing the 47 Correction records or 15 canonical Result.Data records",
+      "resolving any of the 13 conflicts, 15 unresolved states, or 13 next-data requirements"
+    ]
+  }
+}

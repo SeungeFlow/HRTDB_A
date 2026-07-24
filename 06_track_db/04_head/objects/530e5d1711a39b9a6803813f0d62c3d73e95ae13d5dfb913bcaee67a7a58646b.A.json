@@ -1,0 +1,87 @@
+{
+  "object_class": "TRACK_DB_HEAD",
+  "state": "CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "relation": "HEAD_OF",
+  "track_db": {
+    "hash": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3",
+    "registered_filename": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "repository": "SeungeFlow/HRTDB_A",
+    "branch": "TrackDB",
+    "path": "06_track_db/01_result_data/c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_FOUNDATIONAL_TRACK_DB_ASSET",
+    "cycle_id": "FOUNDATIONAL_TRACK_DB_ASSET",
+    "subject_id": "FOUNDATIONAL_TRACK_DB_ASSET",
+    "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+    "registration_contract": "VERIFY_GIT_COMMIT_TREE_BLOB_AT_READ_TIME"
+  },
+  "head": {
+    "title": "Foundational Observation·Origin·Center·Number·Continuity Boundary Asset",
+    "short_summary": "Three Function.2 Reviews integrated into a source-traceable foundational Result.Data that preserves non-equivalence, correction lineage, model-grounding states, conflicts, unresolved states, and next-data gates.",
+    "source_scope": [
+      "DATA_X_32_URL_BOUND",
+      "DATA_Y_50_URL_BOUND_OF_54",
+      "DATA_Z_40_URL_BOUND",
+      "FUNCTION_1_XY_XZ_YZ",
+      "RESULT_XYZ",
+      "FUNCTION_2_XY_XZ_YZ"
+    ],
+    "preserved_state_counts": {
+      "result_data_record_count": 15,
+      "confirmed_relation_count": 14,
+      "compatible_multi_perspective_count": 12,
+      "conflict_state_count": 13,
+      "unresolved_count": 15,
+      "next_data_required_count": 13,
+      "system_learning_candidate_count": 8,
+      "correction_record_count": 47,
+      "unapplied_blocking_correction_count": 0
+    }
+  },
+  "context_head": {
+    "keywords": [
+      "Reality_Abstract",
+      "Property_Direction",
+      "State_Phenomenon_Situation_Environment_Event",
+      "Typed_Origin",
+      "Center_Family",
+      "Count_Measure_Index",
+      "Stabilization_Activation_Continuity_Reactivation",
+      "Provenance_Identity"
+    ],
+    "relation_keys": [
+      "CORRECTED_BY",
+      "SUPPORTED_BY",
+      "CONFLICTS_WITH",
+      "REQUIRES_NEXT_DATA",
+      "DERIVED_FROM",
+      "PRESERVES_DIFFERENCE"
+    ],
+    "use_when": [
+      "foundational track review requires typed observation, origin, center, number, or continuity boundaries",
+      "a later Track DB needs a source-traceable foundational observation frame"
+    ],
+    "full_document_required_when": [
+      "adjudicating identity, origin, center, reactivation, or model–reality claims",
+      "reviewing the 47 Correction records or 15 canonical Result.Data records",
+      "resolving any of the 13 conflicts, 15 unresolved states, or 13 next-data requirements"
+    ],
+    "do_not_infer": [
+      "final universal ontology",
+      "validated universal Reality/Abstract × Property/Direction theorem",
+      "universal center",
+      "same numeral means same operation",
+      "preservation proves same instance",
+      "model fit proves truth",
+      "Track DB remote registration is complete before Closure"
+    ]
+  },
+  "source_lineage": {
+    "head_generated_from_exact_track_db_hash": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3",
+    "promotion_verification_hash": "3a072480afebd7115094a4d8420c6e17445c6b679ba2492b101010a069e103c8",
+    "lineage_hash": "9e764f9225d6a1c646af3f4c6e2a6af9e2f73cff8fcd100fb7076b4ea312e1c8",
+    "full_document_body_mutated": false,
+    "source_intake_interface_path": "06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md",
+    "catalog_path": "06_track_db/00_interface/TRACK_DB_CATALOG.json"
+  }
+}

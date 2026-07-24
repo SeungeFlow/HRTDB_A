@@ -1,0 +1,47 @@
+{
+  "object_class": "TRACK_DB_LINEAGE",
+  "state": "REGISTRATION_CANDIDATE",
+  "repository_seat_code": "A",
+  "relation": "RESULT_DATA_PROMOTED_TO_TRACK_DB",
+  "source_result_data": {
+    "hash": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3",
+    "filename": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "producer": "gpt.xyz",
+    "occupation": "RESULT_DATA_XYZ",
+    "stage_order": 11
+  },
+  "track_db": {
+    "hash": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3",
+    "filename": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "path": "06_track_db/01_result_data/c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "body_byte_relation": "EXACT_SAME_BYTES"
+  },
+  "upstream": {
+    "idea_source_hash": "32e3ab37a50c4c186349c4fd851fbebd1ae6c3f4dcd65b7ce7107f9f0129a5bb",
+    "data": {
+      "gpt.x": "f46e15ae0e22757b9937046716d12824486f045cba1b65c981ab4802aff75e8a",
+      "gpt.y": "bca1e291d958f50535e53c0b5ecec0e3397bc1c4e9940ab5c7a800d6a601e42b",
+      "gpt.z": "ef206608e41832c6b997aca22a9ef743fd6670a529905925fa984b6aaf01ef2e"
+    },
+    "function_1": {
+      "gpt.xy": "4da07a391a409a773163944b89efc3dc1ce06bc8d88a65549269e279b355ff00",
+      "gpt.xz": "1d4bf6023a93e9e2f1c0e161fb1b6a67110e663ec8838d7cc25a9bd3b1f2b612",
+      "gpt.yz": "06cdece6ed6e5e54232de4d81504e5000468d986de4750b889c10163ebb2b544"
+    },
+    "result_xyz": "83c296eefaee273c738ca9ca27f7ebea3b19fe1db8030222b0facd272e63c680",
+    "function_2": {
+      "gpt.xy": "025bf17b3f29a79c65ffd0a45a0ed3028199c2f2dd78bd5103eea8efff813275",
+      "gpt.xz": "bbb6bd1595d0dd107f5d38c27d976b1ce193fc159b6e3e1b2c2348abb45a4124",
+      "gpt.yz": "5c3d0dfd8c76d80bd49a283e6ed5a09b7396b5948d3bdab63d86635217e9d03d"
+    }
+  },
+  "promotion_verification": {
+    "hash": "3a072480afebd7115094a4d8420c6e17445c6b679ba2492b101010a069e103c8",
+    "path": "06_track_db/05_promotion/3a072480afebd7115094a4d8420c6e17445c6b679ba2492b101010a069e103c8.A.json"
+  },
+  "history_policy": {
+    "source_documents_mutated": false,
+    "result_data_body_mutated": false,
+    "conflicts_and_unresolved_preserved": true
+  }
+}

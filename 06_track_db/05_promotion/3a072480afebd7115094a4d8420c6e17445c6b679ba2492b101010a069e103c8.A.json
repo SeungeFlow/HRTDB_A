@@ -1,0 +1,97 @@
+{
+  "object_class": "TRACK_DB_PROMOTION_VERIFICATION",
+  "state": "PROMOTION_APPROVED_PENDING_REMOTE_REGISTRATION",
+  "repository": "SeungeFlow/HRTDB_A",
+  "repository_seat_code": "A",
+  "coordination": {
+    "instance": "gpt.logi",
+    "fixed_seat": "HRTDB_A::gpt.xyzt",
+    "role": "RESULT_DATA_TO_TRACK_DB_PROMOTION_AND_REFERENCE_HANDOFF"
+  },
+  "result_data": {
+    "hash": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3",
+    "canonical_filename": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "exact_byte_count": 92765,
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_FOUNDATIONAL_TRACK_DB_ASSET",
+    "object_class": "HRTDB_RESULT_DATA_XYZ",
+    "producer": "gpt.xyz",
+    "producer_seat": "HRTDB_A::gpt.xyz",
+    "occupation": "RESULT_DATA_XYZ",
+    "cycle_class": "FOUNDATIONAL_TRACK_DB_ASSET",
+    "source_file_transport_name": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A(1).md",
+    "transport_suffix_is_identity": false
+  },
+  "exact_byte_verification": {
+    "filename_hash_matches_actual_bytes": true,
+    "encoding": "UTF-8",
+    "bom": false,
+    "line_ending": "LF",
+    "final_newline": true
+  },
+  "direct_input_binding": {
+    "count": 3,
+    "inputs": [
+      "025bf17b3f29a79c65ffd0a45a0ed3028199c2f2dd78bd5103eea8efff813275.A.md",
+      "bbb6bd1595d0dd107f5d38c27d976b1ce193fc159b6e3e1b2c2348abb45a4124.A.md",
+      "5c3d0dfd8c76d80bd49a283e6ed5a09b7396b5948d3bdab63d86635217e9d03d.A.md"
+    ],
+    "shared_result_xyz_hash": "83c296eefaee273c738ca9ca27f7ebea3b19fe1db8030222b0facd272e63c680",
+    "cycle_consistency": "PASS"
+  },
+  "correction_gate": {
+    "total_review_record_count": 47,
+    "unique_correction_id_count": 47,
+    "declared_observed_count_match": "PASS",
+    "applied_count": 41,
+    "preserved_difference_count": 1,
+    "preserved_unresolved_count": 3,
+    "excluded_disposition_count": 2,
+    "global_blocking_correction_count": 16,
+    "scoped_blocker_count": 1,
+    "normalized_unique_blocking_application_group_count": 16,
+    "unapplied_blocking_correction_count": 0,
+    "irreconcilable_correction_conflict_count": 0
+  },
+  "source_lineage_gate": {
+    "verdict": "PASS_WITH_FOUR_EXPLICIT_UNVERIFIED_RECORD_EXCLUSIONS",
+    "data_x_url_bound_records": 32,
+    "data_y_declared_records": 54,
+    "data_y_url_bound_records": 50,
+    "data_y_excluded_unverified_records": [
+      "Y-CON-049",
+      "Y-CON-050",
+      "Y-CON-053",
+      "Y-CON-054"
+    ],
+    "data_z_url_bound_records": 40,
+    "hidden_source_content_used": false,
+    "new_web_search_at_result_data_stage": false
+  },
+  "result_data_structure": {
+    "record_count": 15,
+    "confirmed_relation_count": 14,
+    "compatible_multi_perspective_count": 12,
+    "conflict_state_count": 13,
+    "unresolved_count": 15,
+    "next_data_required_count": 13,
+    "test_case_count": 7,
+    "system_learning_candidate_count": 8,
+    "track_db_head_candidate_present": true
+  },
+  "preservation_gate": {
+    "original_result_preserved": "PASS",
+    "all_function_2_positions_preserved": "PASS",
+    "unresolved_states_preserved": "PASS",
+    "next_data_requirements_preserved": "PASS",
+    "final_schema_or_ontology_promoted": false
+  },
+  "promotion": {
+    "gpt_xyz_final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+    "gpt_logi_verdict": "PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS",
+    "body_mutation_allowed": false,
+    "track_db_equals_registered_result_data_document": true,
+    "target_branch": "TrackDB",
+    "target_path": "06_track_db/01_result_data/c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+    "remote_registration_state": "PENDING_GPT_GITHUB"
+  }
+}

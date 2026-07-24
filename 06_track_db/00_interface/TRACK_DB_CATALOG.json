@@ -1,0 +1,234 @@
+{
+  "object_class": "HRTDB_A_TRACK_DB_CATALOG",
+  "state": "CURRENT_CANDIDATE",
+  "repository": "SeungeFlow/HRTDB_A",
+  "repository_seat_code": "A",
+  "branch": "TrackDB",
+  "consumer_repository": "SeungeFlow/LRSDoNet_B",
+  "consumer_repository_seat": "B",
+  "consumer_seat": "LRSDoNet_B::gpt.xyzt",
+  "consumer_instance": "gpt.think",
+  "interface_path": "06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md",
+  "head_index_path": "06_track_db/04_head/HEAD_INDEX.json",
+  "routing_rule": "FIRST_TWO_HEX_OF_TRACK_DB_HASH",
+  "track_db_count": 3,
+  "reading_rule": [
+    "READ_REPOSITORY_README",
+    "READ_TRACKDB_BRANCH_README",
+    "READ_SOURCE_INTAKE_INTERFACE",
+    "READ_CATALOG",
+    "SELECT_RELEVANT_TRACKS",
+    "READ_HEAD_INDEX_AND_RELEVANT_SHARDS",
+    "READ_RELEVANT_HEAD_OBJECTS",
+    "LOAD_FULL_TRACK_DB_ONLY_WHEN_REQUIRED",
+    "FREEZE_COMMIT_TREE_BLOB_AND_RECORD_SOURCE_INTAKE"
+  ],
+  "entries": [
+    {
+      "track_db_hash": "72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b",
+      "track_db_path": "06_track_db/01_result_data/72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b.A.md",
+      "track_db_object_id": "HRTDB_PILOT_RESULT_DATA_0003_XYZ",
+      "cycle_id": "HRTDB_PILOT_DATA_0003",
+      "subject_id": "OBSERVER_AXIS_REFERENCE_FRAME_TRACK_PROVENANCE_RELATION",
+      "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+      "head_hash": "e8b7d6c8880461be014ee83bdee25b767722b7ba9ef894a010d2d18b81add61e",
+      "head_path": "06_track_db/04_head/objects/e8b7d6c8880461be014ee83bdee25b767722b7ba9ef894a010d2d18b81add61e.A.json",
+      "title": "Observer Axis Reference Frame Track Provenance Relation",
+      "short_summary": "관측자·축·기준계·Track·Provenance 관계를 Seat-local Source와 독립 Function.2 Review로 조직하고, 16개 Correction 적용상태·Conflict·Open Future·Required Next Data를 분리 보존한 Result.Data.",
+      "source_scope": [
+        "AI_HELD_DATA",
+        "PRIOR_GITHUB_ASSETS",
+        "RESULT_XYZ",
+        "FUNCTION_REVIEW_XY_XZ_YZ",
+        "SOURCE_RECORD_PROVENANCE"
+      ],
+      "preserved_state_counts": {
+        "result_data_cell_count": 70,
+        "review_unit_count": 80,
+        "correction_count": 16,
+        "applied_blocking_correction_count": 7,
+        "applied_nonblocking_correction_count": 9,
+        "correction_conflict_count": 0,
+        "preserved_issue_count": 87,
+        "conflict_state_count": 30,
+        "inherited_unresolved_count": 26,
+        "open_future_count": 44,
+        "required_next_data_count": 26,
+        "system_learning_candidate_count": 10
+      },
+      "keywords": [
+        "observer",
+        "axis",
+        "reference frame",
+        "track",
+        "provenance",
+        "source record",
+        "correction",
+        "conflict",
+        "required next data"
+      ],
+      "relation_keys": [
+        "OBSERVER_AXIS",
+        "REFERENCE_FRAME",
+        "TRACK_PROVENANCE",
+        "SOURCE_RECORD_LINEAGE",
+        "SEAT_PRESERVING_REVIEW"
+      ],
+      "use_when": [
+        "관측자·축·기준계·Track·Provenance 관계 Track을 찾을 때",
+        "Cycle 0003의 16개 Correction 적용상태를 찾을 때",
+        "Source Registry와 Content Record의 분리구조가 필요할 때"
+      ],
+      "full_document_required_when": [
+        "80개 Review Unit과 70개 Result.Data Cell을 직접 사용할 때",
+        "87개 Preserved Issue와 30개 Conflict State를 역검산할 때",
+        "26개 Required Next Data의 구체내용이 필요할 때"
+      ],
+      "do_not_infer": [
+        "Head summary is not the full Track DB.",
+        "Head does not replace exact Source evidence.",
+        "Head does not resolve preserved conflicts or unresolved states."
+      ],
+      "availability_gate": "VERIFY_TRACKDB_BRANCH_COMMIT_TREE_GIT_BLOB_AT_READ_TIME",
+      "full_document_payload_included": false,
+      "full_document_source": "REQUIRED_EXISTING_REMOTE_GIT_BLOB"
+    },
+    {
+      "track_db_hash": "9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4",
+      "track_db_path": "06_track_db/01_result_data/9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4.A.md",
+      "track_db_object_id": "HRTDB_PILOT_RESULT_DATA_0002_XYZ",
+      "cycle_id": "HRTDB_PILOT_DATA_0002",
+      "subject_id": "AI_DATA_CENTER_FUSION_RELATION",
+      "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+      "head_hash": "08a69c9f0ab30f135e480080294c00af0102390c91b801e42f654f5ef77b02ae",
+      "head_path": "06_track_db/04_head/objects/08a69c9f0ab30f135e480080294c00af0102390c91b801e42f654f5ef77b02ae.A.json",
+      "title": "AI Data Center Fusion Relation",
+      "short_summary": "AI 데이터센터의 전력·에너지·인프라 관련 외부자료를 XY·XZ·YZ Seat의 Result와 독립 Review로 조직하고 Correction·Conflict·Unresolved·Open Future·Source Lineage를 함께 보존한 Result.Data.",
+      "source_scope": [
+        "EXTERNAL_WEB_DATA",
+        "AI_HELD_DATA",
+        "PREDECESSOR_TRACK_LINEAGE",
+        "FUNCTION_RESULT_XY_XZ_YZ",
+        "FUNCTION_REVIEW_XY_XZ_YZ"
+      ],
+      "preserved_state_counts": {
+        "result_data_cell_count": 76,
+        "correction_record_count": 27,
+        "fully_applied_correction_count": 23,
+        "partially_applied_with_review_conflict_count": 2,
+        "proposed_not_applied_correction_count": 2,
+        "open_future_count": 46,
+        "review_generated_unresolved_count": 6,
+        "preserved_issue_count": 54,
+        "conflict_state_count": 41,
+        "system_learning_candidate_count": 10
+      },
+      "keywords": [
+        "AI data center",
+        "electricity",
+        "energy infrastructure",
+        "power grid",
+        "nuclear energy",
+        "source provenance",
+        "correction",
+        "conflict",
+        "open future"
+      ],
+      "relation_keys": [
+        "CONTENT_SOURCE_PAIR",
+        "SEAT_PRESERVING_RESULT",
+        "INDEPENDENT_REVIEW",
+        "CORRECTION_LINEAGE",
+        "UNRESOLVED_STATE"
+      ],
+      "use_when": [
+        "AI 데이터센터 전력·에너지·인프라 관계 Track을 찾을 때",
+        "Cycle 0002 Source·Review·Correction 계보를 찾을 때",
+        "Conflict와 Open Future가 보존된 Result.Data가 필요할 때"
+      ],
+      "full_document_required_when": [
+        "개별 Web Source URL과 Content–Source Pair가 필요할 때",
+        "27개 Correction과 41개 Conflict State를 역검산할 때",
+        "76개 Result.Data Cell을 직접 사용할 때"
+      ],
+      "do_not_infer": [
+        "Head summary is not the full Track DB.",
+        "Head does not replace exact Source evidence.",
+        "Head does not resolve preserved conflicts or unresolved states."
+      ],
+      "availability_gate": "VERIFY_TRACKDB_BRANCH_COMMIT_TREE_GIT_BLOB_AT_READ_TIME",
+      "full_document_payload_included": false,
+      "full_document_source": "REQUIRED_EXISTING_REMOTE_GIT_BLOB"
+    },
+    {
+      "track_db_hash": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3",
+      "track_db_path": "06_track_db/01_result_data/c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+      "track_db_object_id": "HRTDB_A_RESULT_DATA_XYZ_FOUNDATIONAL_TRACK_DB_ASSET",
+      "cycle_id": "FOUNDATIONAL_TRACK_DB_ASSET",
+      "subject_id": "FOUNDATIONAL_TRACK_DB_ASSET",
+      "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+      "head_hash": "530e5d1711a39b9a6803813f0d62c3d73e95ae13d5dfb913bcaee67a7a58646b",
+      "head_path": "06_track_db/04_head/objects/530e5d1711a39b9a6803813f0d62c3d73e95ae13d5dfb913bcaee67a7a58646b.A.json",
+      "title": "Foundational Observation·Origin·Center·Number·Continuity Boundary Asset",
+      "short_summary": "Three Function.2 Reviews integrated into a source-traceable foundational Result.Data that preserves non-equivalence, correction lineage, model-grounding states, conflicts, unresolved states, and next-data gates.",
+      "source_scope": [
+        "DATA_X_32_URL_BOUND",
+        "DATA_Y_50_URL_BOUND_OF_54",
+        "DATA_Z_40_URL_BOUND",
+        "FUNCTION_1_XY_XZ_YZ",
+        "RESULT_XYZ",
+        "FUNCTION_2_XY_XZ_YZ"
+      ],
+      "preserved_state_counts": {
+        "result_data_record_count": 15,
+        "confirmed_relation_count": 14,
+        "compatible_multi_perspective_count": 12,
+        "conflict_state_count": 13,
+        "unresolved_count": 15,
+        "next_data_required_count": 13,
+        "system_learning_candidate_count": 8,
+        "correction_record_count": 47,
+        "unapplied_blocking_correction_count": 0
+      },
+      "keywords": [
+        "Reality_Abstract",
+        "Property_Direction",
+        "State_Phenomenon_Situation_Environment_Event",
+        "Typed_Origin",
+        "Center_Family",
+        "Count_Measure_Index",
+        "Stabilization_Activation_Continuity_Reactivation",
+        "Provenance_Identity"
+      ],
+      "relation_keys": [
+        "CORRECTED_BY",
+        "SUPPORTED_BY",
+        "CONFLICTS_WITH",
+        "REQUIRES_NEXT_DATA",
+        "DERIVED_FROM",
+        "PRESERVES_DIFFERENCE"
+      ],
+      "use_when": [
+        "foundational track review requires typed observation, origin, center, number, or continuity boundaries",
+        "a later Track DB needs a source-traceable foundational observation frame"
+      ],
+      "full_document_required_when": [
+        "adjudicating identity, origin, center, reactivation, or model–reality claims",
+        "reviewing the 47 Correction records or 15 canonical Result.Data records",
+        "resolving any of the 13 conflicts, 15 unresolved states, or 13 next-data requirements"
+      ],
+      "do_not_infer": [
+        "final universal ontology",
+        "validated universal Reality/Abstract × Property/Direction theorem",
+        "universal center",
+        "same numeral means same operation",
+        "preservation proves same instance",
+        "model fit proves truth",
+        "Track DB remote registration is complete before Closure"
+      ],
+      "availability_gate": "VERIFY_TRACKDB_BRANCH_COMMIT_TREE_GIT_BLOB_AT_READ_TIME",
+      "full_document_payload_included": true,
+      "full_document_source": "PACKAGE_PAYLOAD"
+    }
+  ]
+}

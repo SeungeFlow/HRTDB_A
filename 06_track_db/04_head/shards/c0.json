@@ -1,0 +1,24 @@
+{
+  "object_class": "TRACK_DB_HEAD_SHARD",
+  "state": "CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "routing_prefix": "c0",
+  "entry_count": 1,
+  "entries": [
+    {
+      "track_db_hash": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3",
+      "track_db_filename": "c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+      "track_db_path": "06_track_db/01_result_data/c02a46b9b2d47c92d97ef782451b7bd6b271f225658787f51e505c84f83bbce3.A.md",
+      "head_object_hash": "530e5d1711a39b9a6803813f0d62c3d73e95ae13d5dfb913bcaee67a7a58646b",
+      "head_object_path": "06_track_db/04_head/objects/530e5d1711a39b9a6803813f0d62c3d73e95ae13d5dfb913bcaee67a7a58646b.A.json",
+      "subject_id": "FOUNDATIONAL_TRACK_DB_ASSET",
+      "keyword_subset": [
+        "Reality_Abstract",
+        "Typed_Origin",
+        "Center_Family",
+        "Count_Measure_Index",
+        "Stabilization_Activation_Continuity_Reactivation"
+      ]
+    }
+  ]
+}
