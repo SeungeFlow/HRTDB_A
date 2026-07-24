@@ -311,6 +311,49 @@ Knowledge Asset is not Analysis Asset.
 
 ---
 
+### 7.1 HRTDB_A → LRSDoNet_B 원천 Data 진입경로
+
+`LRSDoNet_B::gpt.xyzt`의 통합관제 인스턴스 `gpt.think`가 HRTDB_A의 Track DB를 원천 Data로 사용할 때는 전체 Repository를 무차별 Scan하지 않는다.
+
+```text
+HRTDB_A main README
+→ TrackDB Branch README
+→ HRTDB_A_TO_LRSDoNet_B.md
+→ TRACK_DB_CATALOG.json
+→ HEAD_INDEX.json
+→ Relevant Prefix Shard
+→ Relevant Head Object
+→ Selected Full Track DB
+```
+
+Stable Entry Paths:
+
+```text
+TrackDB@README.md
+TrackDB@06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md
+TrackDB@06_track_db/00_interface/TRACK_DB_CATALOG.json
+TrackDB@06_track_db/04_head/HEAD_INDEX.json
+```
+
+읽기 원칙:
+
+```text
+Catalog Summary ≠ Full Track DB
+Head ≠ Full Track DB
+Track DB ≠ Hash DB
+Source Intake ≠ Repository Merge
+```
+
+`gpt.think`는 선택한 Full Track DB의 Exact Byte Hash·Git Blob·Branch Commit·Tree·Head Hash를 Source Intake에 기록하고, Conflict·Unresolved·Required Next Data를 삭제하지 않은 상태로 LRSDoNet_B의 분석입력으로 사용한다.
+
+자세한 계약은 TrackDB Branch의 다음 문서를 따른다.
+
+```text
+06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md
+```
+
+---
+
 ## 8. 공유상태와 재귀적 원천화
 
 `gpt.logi`와 `gpt.think`는 Result.Data·Track DB·GitHub Address·Hash·Lineage를 관계적으로 공유한다. 공유는 병합이 아니다.
