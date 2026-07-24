@@ -1,0 +1,81 @@
+{
+  "object_class": "TRACK_DB_HEAD",
+  "state": "CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "relation": "HEAD_OF",
+  "track_db": {
+    "hash": "72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b",
+    "registered_filename": "72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b.A.md",
+    "repository": "SeungeFlow/HRTDB_A",
+    "branch": "TrackDB",
+    "path": "06_track_db/01_result_data/72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b.A.md",
+    "object_id": "HRTDB_PILOT_RESULT_DATA_0003_XYZ",
+    "cycle_id": "HRTDB_PILOT_DATA_0003",
+    "subject_id": "OBSERVER_AXIS_REFERENCE_FRAME_TRACK_PROVENANCE_RELATION",
+    "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS"
+  },
+  "head": {
+    "title": "Observer Axis Reference Frame Track Provenance Relation",
+    "short_summary": "관측자·축·기준계·Track·Provenance 관계를 Seat-local Source와 독립 Function.2 Review로 조직하고, 16개 Correction 적용상태·Conflict·Open Future·Required Next Data를 분리 보존한 Result.Data.",
+    "source_scope": [
+      "AI_HELD_DATA",
+      "PRIOR_GITHUB_ASSETS",
+      "RESULT_XYZ",
+      "FUNCTION_REVIEW_XY_XZ_YZ",
+      "SOURCE_RECORD_PROVENANCE"
+    ],
+    "preserved_state_counts": {
+      "result_data_cell_count": 70,
+      "review_unit_count": 80,
+      "correction_count": 16,
+      "applied_blocking_correction_count": 7,
+      "applied_nonblocking_correction_count": 9,
+      "correction_conflict_count": 0,
+      "preserved_issue_count": 87,
+      "conflict_state_count": 30,
+      "inherited_unresolved_count": 26,
+      "open_future_count": 44,
+      "required_next_data_count": 26,
+      "system_learning_candidate_count": 10
+    }
+  },
+  "context_head": {
+    "keywords": [
+      "observer",
+      "axis",
+      "reference frame",
+      "track",
+      "provenance",
+      "source record",
+      "correction",
+      "conflict",
+      "required next data"
+    ],
+    "relation_keys": [
+      "OBSERVER_AXIS",
+      "REFERENCE_FRAME",
+      "TRACK_PROVENANCE",
+      "SOURCE_RECORD_LINEAGE",
+      "SEAT_PRESERVING_REVIEW"
+    ],
+    "use_when": [
+      "관측자·축·기준계·Track·Provenance 관계 Track을 찾을 때",
+      "Cycle 0003의 16개 Correction 적용상태를 찾을 때",
+      "Source Registry와 Content Record의 분리구조가 필요할 때"
+    ],
+    "full_document_required_when": [
+      "80개 Review Unit과 70개 Result.Data Cell을 직접 사용할 때",
+      "87개 Preserved Issue와 30개 Conflict State를 역검산할 때",
+      "26개 Required Next Data의 구체내용이 필요할 때"
+    ],
+    "do_not_infer": [
+      "Head summary is not the full Track DB.",
+      "Head does not replace exact Source evidence.",
+      "Head does not resolve preserved conflicts or unresolved states."
+    ]
+  },
+  "source_lineage": {
+    "head_generated_from_exact_track_db_hash": "72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b",
+    "full_document_body_mutated": false
+  }
+}

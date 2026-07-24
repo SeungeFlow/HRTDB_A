@@ -1,0 +1,79 @@
+{
+  "object_class": "TRACK_DB_HEAD",
+  "state": "CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "relation": "HEAD_OF",
+  "track_db": {
+    "hash": "9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4",
+    "registered_filename": "9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4.A.md",
+    "repository": "SeungeFlow/HRTDB_A",
+    "branch": "TrackDB",
+    "path": "06_track_db/01_result_data/9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4.A.md",
+    "object_id": "HRTDB_PILOT_RESULT_DATA_0002_XYZ",
+    "cycle_id": "HRTDB_PILOT_DATA_0002",
+    "subject_id": "AI_DATA_CENTER_FUSION_RELATION",
+    "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS"
+  },
+  "head": {
+    "title": "AI Data Center Fusion Relation",
+    "short_summary": "AI 데이터센터의 전력·에너지·인프라 관련 외부자료를 XY·XZ·YZ Seat의 Result와 독립 Review로 조직하고 Correction·Conflict·Unresolved·Open Future·Source Lineage를 함께 보존한 Result.Data.",
+    "source_scope": [
+      "EXTERNAL_WEB_DATA",
+      "AI_HELD_DATA",
+      "PREDECESSOR_TRACK_LINEAGE",
+      "FUNCTION_RESULT_XY_XZ_YZ",
+      "FUNCTION_REVIEW_XY_XZ_YZ"
+    ],
+    "preserved_state_counts": {
+      "result_data_cell_count": 76,
+      "correction_record_count": 27,
+      "fully_applied_correction_count": 23,
+      "partially_applied_with_review_conflict_count": 2,
+      "proposed_not_applied_correction_count": 2,
+      "open_future_count": 46,
+      "review_generated_unresolved_count": 6,
+      "preserved_issue_count": 54,
+      "conflict_state_count": 41,
+      "system_learning_candidate_count": 10
+    }
+  },
+  "context_head": {
+    "keywords": [
+      "AI data center",
+      "electricity",
+      "energy infrastructure",
+      "power grid",
+      "nuclear energy",
+      "source provenance",
+      "correction",
+      "conflict",
+      "open future"
+    ],
+    "relation_keys": [
+      "CONTENT_SOURCE_PAIR",
+      "SEAT_PRESERVING_RESULT",
+      "INDEPENDENT_REVIEW",
+      "CORRECTION_LINEAGE",
+      "UNRESOLVED_STATE"
+    ],
+    "use_when": [
+      "AI 데이터센터 전력·에너지·인프라 관계 Track을 찾을 때",
+      "Cycle 0002 Source·Review·Correction 계보를 찾을 때",
+      "Conflict와 Open Future가 보존된 Result.Data가 필요할 때"
+    ],
+    "full_document_required_when": [
+      "개별 Web Source URL과 Content–Source Pair가 필요할 때",
+      "27개 Correction과 41개 Conflict State를 역검산할 때",
+      "76개 Result.Data Cell을 직접 사용할 때"
+    ],
+    "do_not_infer": [
+      "Head summary is not the full Track DB.",
+      "Head does not replace exact Source evidence.",
+      "Head does not resolve preserved conflicts or unresolved states."
+    ]
+  },
+  "source_lineage": {
+    "head_generated_from_exact_track_db_hash": "9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4",
+    "full_document_body_mutated": false
+  }
+}

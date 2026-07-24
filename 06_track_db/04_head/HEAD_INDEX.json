@@ -1,0 +1,28 @@
+{
+  "object_class": "TRACK_DB_HEAD_ROOT_INDEX",
+  "state": "CURRENT_CANDIDATE",
+  "repository": "SeungeFlow/HRTDB_A",
+  "repository_seat_code": "A",
+  "branch": "TrackDB",
+  "routing_rule": "FIRST_TWO_HEX_OF_TRACK_DB_HASH",
+  "reading_rule": [
+    "READ_ROOT_INDEX",
+    "READ_ONLY_RELEVANT_PREFIX_SHARD",
+    "READ_ONLY_RELEVANT_HEAD_OBJECTS",
+    "LOAD_FULL_TRACK_DB_ONLY_WHEN_REQUIRED"
+  ],
+  "head_contract_path": "06_track_db/04_head/contracts/cf7dcf65f3732777db4920563cd2f344e607540914bc226eac180ec0890f8deb.A.md",
+  "current_track_db_head_count": 2,
+  "shards": [
+    {
+      "prefix": "72",
+      "path": "06_track_db/04_head/shards/72.json",
+      "entry_count": 1
+    },
+    {
+      "prefix": "9d",
+      "path": "06_track_db/04_head/shards/9d.json",
+      "entry_count": 1
+    }
+  ]
+}

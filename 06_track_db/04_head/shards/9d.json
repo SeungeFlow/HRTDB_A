@@ -1,0 +1,24 @@
+{
+  "object_class": "TRACK_DB_HEAD_SHARD",
+  "state": "CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "routing_prefix": "9d",
+  "entry_count": 1,
+  "entries": [
+    {
+      "track_db_hash": "9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4",
+      "track_db_filename": "9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4.A.md",
+      "track_db_path": "06_track_db/01_result_data/9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4.A.md",
+      "head_object_hash": "08a69c9f0ab30f135e480080294c00af0102390c91b801e42f654f5ef77b02ae",
+      "head_object_path": "06_track_db/04_head/objects/08a69c9f0ab30f135e480080294c00af0102390c91b801e42f654f5ef77b02ae.A.json",
+      "subject_id": "AI_DATA_CENTER_FUSION_RELATION",
+      "keyword_subset": [
+        "AI data center",
+        "electricity",
+        "energy infrastructure",
+        "power grid",
+        "nuclear energy"
+      ]
+    }
+  ]
+}
