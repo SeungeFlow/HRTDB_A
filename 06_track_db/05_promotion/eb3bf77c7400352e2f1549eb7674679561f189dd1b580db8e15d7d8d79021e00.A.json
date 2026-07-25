@@ -1,0 +1,81 @@
+{
+  "object_class": "TRACK_DB_PROMOTION_VERIFICATION",
+  "state": "PROMOTION_APPROVED_LOCAL_HOLDING_PENDING_REMOTE_REGISTRATION",
+  "repository": "SeungeFlow/HRTDB_A",
+  "repository_seat_code": "A",
+  "coordination": {
+    "instance": "gpt.logi",
+    "fixed_seat": "HRTDB_A::gpt.xyzt",
+    "role": "RESULT_DATA_VERIFICATION_CORRECTION_AND_TRACK_DB_PROMOTION"
+  },
+  "result_data": {
+    "hash": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2",
+    "canonical_filename": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md",
+    "exact_byte_count": 272468,
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_ROTATION_AXIS_RELATION_STRUCTURE",
+    "object_class": "HRTDB_RESULT_DATA_XYZ",
+    "producer": "gpt.xyz",
+    "producer_seat": "HRTDB_A::gpt.xyz",
+    "verification_corrected_by": "gpt.logi",
+    "verification_seat": "HRTDB_A::gpt.xyzt",
+    "cycle_class": "ROTATION_AXIS_RELATION_STRUCTURE",
+    "source_file_original_hash": "5a18d421b188129bffb9f5b04d42c9a233e53963ca64861146d9c1485ad7d416",
+    "body_is_track_db": true
+  },
+  "exact_byte_verification": {
+    "filename_hash_matches_actual_bytes": true,
+    "encoding": "UTF-8",
+    "bom": false,
+    "line_ending": "LF",
+    "final_newline": true
+  },
+  "direct_input_binding": {
+    "count": 4,
+    "inputs": [
+      "ae3cf4f3b5d78e4b94ad9d42fddd5cdac5fd7706d412b3c453aa8914bdfd94d6.A.md",
+      "cbd525e9a406391d2e6bf92518d76434026b7c6230386ebf20e153e78d247840.A.md",
+      "29300f1e13d90831e8e8b0c4d98fcd93b4a75d18a379550855d6f25aa4bf1e65.A.md",
+      "e89af110f3abc334d4b6e98767520caebbbcab3131ce35877f6522588aa56d74.A.md"
+    ],
+    "cycle_consistency": "PASS"
+  },
+  "correction_gate": {
+    "total_correction_record_count": 50,
+    "unique_correction_id_count": 50,
+    "applied_direct_count": 14,
+    "applied_with_boundary_note_count": 29,
+    "preserved_as_conflict_count": 1,
+    "excluded_from_confirmed_result_count": 1,
+    "not_applicable_original_retained_count": 5,
+    "scoped_blocking_received_count": 15,
+    "scoped_blocking_resolved_count": 15,
+    "global_blocking_unresolved_count": 0,
+    "irreconcilable_correction_conflict_count": 0
+  },
+  "source_lineage_gate": {
+    "source_backed_confirmed_relation_count": 19,
+    "verified_internal_scope_boundary_count": 1,
+    "scoped_source_weakness_count": 2,
+    "scoped_source_weaknesses_excluded_from_canonical_evidence": true,
+    "unique_source_url_count": 56,
+    "verdict": "PASS_WITH_EXPLICIT_SCOPED_EXCLUSIONS"
+  },
+  "preservation_gate": {
+    "result_data_record_count": 15,
+    "compatible_multi_perspective_state_count": 13,
+    "reference_frame_dependent_difference_count": 12,
+    "preserved_conflict_count": 16,
+    "ambiguity_count": 18,
+    "counterexample_count": 16,
+    "excluded_claim_count": 8,
+    "unresolved_state_count": 24,
+    "required_next_data_count": 24
+  },
+  "verification_certificate": {
+    "hash": "08142cdc959ec050230c363fe09a87e1da130a75f2a53a92b8924ca11bd3e235",
+    "filename": "08142cdc959ec050230c363fe09a87e1da130a75f2a53a92b8924ca11bd3e235.A.md"
+  },
+  "promotion_verdict": "PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS",
+  "track_db_relation": "ONE_TRACK_DB_EQUALS_ONE_EXACT_VERIFIED_RESULT_DATA_DOCUMENT",
+  "github_registration": "NOT_INCLUDED_PENDING_CURRENT_REMOTE_REBIND_AUDIT"
+}

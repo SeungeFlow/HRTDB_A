@@ -1,0 +1,60 @@
+{
+  "object_class": "TRACK_DB_INDEX_ENTRY",
+  "state": "LOCAL_HOLDING_CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "track_db": {
+    "hash": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2",
+    "filename": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md",
+    "future_path": "06_track_db/01_result_data/d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md",
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_ROTATION_AXIS_RELATION_STRUCTURE",
+    "subject_id": "ROTATION_AXIS_RELATION_STRUCTURE",
+    "cycle_id": "ROTATION_AXIS_RELATION_STRUCTURE",
+    "result_data_record_count": 15,
+    "source_backed_confirmed_relation_count": 19,
+    "verified_internal_scope_boundary_count": 1,
+    "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS"
+  },
+  "relations": {
+    "promotion_verification_hash": "eb3bf77c7400352e2f1549eb7674679561f189dd1b580db8e15d7d8d79021e00",
+    "promotion_verification_future_path": "06_track_db/05_promotion/eb3bf77c7400352e2f1549eb7674679561f189dd1b580db8e15d7d8d79021e00.A.json",
+    "lineage_hash": "d45c9059b9d1b503c21666380f509dd28986dcc48fcedfd035b6d38846bbe3fd",
+    "lineage_future_path": "06_track_db/03_lineage/d45c9059b9d1b503c21666380f509dd28986dcc48fcedfd035b6d38846bbe3fd.A.json",
+    "head_object_hash": "75e1b15e38074ce5fe437a393f8f074bd2ee4bedddf6941cdd56e8191308bfbd",
+    "head_object_future_path": "06_track_db/04_head/objects/75e1b15e38074ce5fe437a393f8f074bd2ee4bedddf6941cdd56e8191308bfbd.A.json",
+    "global_catalog_state": "NOT_GENERATED_PENDING_REMOTE_REBIND",
+    "head_root_index_state": "NOT_GENERATED_PENDING_REMOTE_REBIND",
+    "head_shard_state": "NOT_GENERATED_PENDING_REMOTE_REBIND"
+  },
+  "retrieval": {
+    "hash_prefix": "d1",
+    "keywords": [
+      "rotation",
+      "axis",
+      "reference frame",
+      "observer",
+      "projection",
+      "orientation",
+      "identity",
+      "SO(2)",
+      "SO(3)",
+      "SE(3)",
+      "representation",
+      "provenance"
+    ],
+    "relation_keys": [
+      "ROTATION_NOT_TRANSLATION",
+      "SPIN_NOT_ORBIT",
+      "ACTIVE_NOT_PASSIVE",
+      "AXIS_NOT_OBSERVER_OR_BOUNDARY",
+      "PROJECTION_NOT_PATH",
+      "POSITION_NOT_IDENTITY",
+      "FORMAL_ANALOGUE_NOT_PHYSICAL_PROOF",
+      "SYMBOL_SURFACE_PREMISE_BOUND_ONLY"
+    ],
+    "full_document_required_when": [
+      "50개 Correction 적용계보를 직접 검산할 때",
+      "16개 Conflict와 24개 Unresolved/Next Data를 사용할 때",
+      "Source URL·Record ID·Processing Lineage가 필요한 주장을 할 때"
+    ]
+  }
+}

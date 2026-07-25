@@ -1,0 +1,58 @@
+{
+  "object_class": "TRACK_DB_LINEAGE",
+  "state": "LOCAL_HOLDING_REGISTRATION_CANDIDATE",
+  "repository_seat_code": "A",
+  "relation": "RESULT_DATA_VERIFIED_AND_PROMOTED_TO_TRACK_DB",
+  "source_result_data": {
+    "original_hash": "d3709ac15975e71c9a9157e62c7df17439b294da55ef35a427b23f4ec364f0dd",
+    "original_filename": "d3709ac15975e71c9a9157e62c7df17439b294da55ef35a427b23f4ec364f0dd.A.md",
+    "producer": "gpt.xyz",
+    "producer_seat": "HRTDB_A::gpt.xyz",
+    "occupation": "RESULT_DATA_XYZ_US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "stage_order": 11
+  },
+  "verified_result_data": {
+    "hash": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88",
+    "filename": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+    "corrected_by": "gpt.logi",
+    "correction_seat": "HRTDB_A::gpt.xyzt",
+    "correction_class": "FINAL_VERIFICATION_LINEAGE_AND_CLASSIFICATION_CORRECTION",
+    "substantive_market_analysis_change": false,
+    "new_external_fact_added": false
+  },
+  "track_db": {
+    "hash": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88",
+    "filename": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+    "future_path": "06_track_db/01_result_data/1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+    "body_byte_relation": "EXACT_SAME_BYTES_AS_VERIFIED_RESULT_DATA"
+  },
+  "upstream": {
+    "data": {
+      "gpt.x": "0dc35307d335ef1d0f35396cfe05efd1cdeb47b44267144712b2441acd744cf7",
+      "gpt.y": "df660dec6f7fda7e73866e9e8fc7f421c8b75ed36d71ae9f7df871943feda2eb",
+      "gpt.z": "4f956d94467f01ee2e8682ca6614a1332b149f107810b6457cd3b94485f44667"
+    },
+    "function_1": {
+      "gpt.xy": "4aeccaef66965586b930b71e23df02a2de232e58583f829f9757e430a649c449",
+      "gpt.xz": "7997d1d9479694fb96aeb10970b110d6e3c39cc809725da63e81308e474e5670",
+      "gpt.yz": "31e6f1ca764d9a511ae9e5d383bd0eb6351a57c55e9373e3ae375afac0899300"
+    },
+    "result_xyz": "69a04fbc4f41527031b3c724ae8b46216b0d619c9071b45f1dd05a04bb40cc99",
+    "function_2": {
+      "gpt.xy": "38aae10ead7fcc551a839fde8fdd580aba8aa902a2899cf7c63056653a4a4599",
+      "gpt.xz": "e6099529775901a483fdb87bbcdcc74e34fa13e837a07aa2d659d376ffe0d02d",
+      "gpt.yz": "774de12b61058b6d6c2e10d2423c9a930888469e13820363e8545e1b9bb36bae"
+    }
+  },
+  "source_registry": {
+    "upstream_source_record_count": 56,
+    "canonical_external_source_url_count": 42,
+    "embedded_in_track_db_body": true
+  },
+  "history_policy": {
+    "original_result_data_mutated": false,
+    "upstream_documents_mutated": false,
+    "new_external_fact_added": false,
+    "conflicts_and_unresolved_preserved": true
+  }
+}

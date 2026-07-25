@@ -11,7 +11,7 @@
   "interface_path": "06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md",
   "head_index_path": "06_track_db/04_head/HEAD_INDEX.json",
   "routing_rule": "FIRST_TWO_HEX_OF_TRACK_DB_HASH",
-  "track_db_count": 3,
+  "track_db_count": 5,
   "reading_rule": [
     "READ_REPOSITORY_README",
     "READ_TRACKDB_BRANCH_README",
@@ -229,6 +229,179 @@
       "availability_gate": "VERIFY_TRACKDB_BRANCH_COMMIT_TREE_GIT_BLOB_AT_READ_TIME",
       "full_document_payload_included": true,
       "full_document_source": "PACKAGE_PAYLOAD"
+    },
+    {
+      "track_db_hash": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2",
+      "track_db_path": "06_track_db/01_result_data/d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md",
+      "track_db_object_id": "HRTDB_A_RESULT_DATA_XYZ_ROTATION_AXIS_RELATION_STRUCTURE",
+      "cycle_id": "ROTATION_AXIS_RELATION_STRUCTURE",
+      "subject_id": "ROTATION_AXIS_RELATION_STRUCTURE",
+      "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+      "promotion_verdict": "PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS",
+      "index_object_hash": "bd6d054a19a60e0a3b67f588472131ff311403870e9bf71adfab685febe183ef",
+      "index_path": "06_track_db/02_index/bd6d054a19a60e0a3b67f588472131ff311403870e9bf71adfab685febe183ef.A.json",
+      "head_hash": "75e1b15e38074ce5fe437a393f8f074bd2ee4bedddf6941cdd56e8191308bfbd",
+      "head_path": "06_track_db/04_head/objects/75e1b15e38074ce5fe437a393f8f074bd2ee4bedddf6941cdd56e8191308bfbd.A.json",
+      "title": "Rotation–Axis Relation Structure",
+      "short_summary": "Frame·Observer·Axis·Transformation·Representation·Identity·Source 경계를 보존하고 세 Function.2의 50개 Correction을 적용한 15개 Canonical Result.Data Record. 19개 Source-backed Confirmed Relation과 1개 Verified Internal Scope Boundary를 분리한다.",
+      "source_scope": [
+        "DATA_X_REALITY",
+        "DATA_Y_TERMS_ORIGINS",
+        "DATA_Z_FORMAL_MODELS",
+        "FUNCTION_1_XY_XZ_YZ",
+        "RESULT_XYZ",
+        "FUNCTION_2_XY_XZ_YZ",
+        "GPT_XYZT_VERIFICATION_CORRECTION"
+      ],
+      "preserved_state_counts": {
+        "result_data_record_count": 15,
+        "source_backed_confirmed_relation_count": 19,
+        "verified_internal_scope_boundary_count": 1,
+        "compatible_multi_perspective_state_count": 13,
+        "reference_frame_dependent_difference_count": 12,
+        "preserved_conflict_count": 16,
+        "ambiguity_count": 18,
+        "counterexample_count": 16,
+        "unresolved_state_count": 24,
+        "required_next_data_count": 24,
+        "excluded_claim_count": 8,
+        "correction_record_count": 50
+      },
+      "keywords": [
+        "rotation",
+        "axis",
+        "reference frame",
+        "observer",
+        "projection",
+        "orientation",
+        "identity",
+        "SO(2)",
+        "SO(3)",
+        "SE(3)",
+        "representation",
+        "provenance"
+      ],
+      "relation_keys": [
+        "ROTATION_NOT_TRANSLATION",
+        "SPIN_NOT_ORBIT",
+        "ACTIVE_NOT_PASSIVE",
+        "AXIS_NOT_OBSERVER_OR_BOUNDARY",
+        "PROJECTION_NOT_PATH",
+        "POSITION_NOT_IDENTITY",
+        "FORMAL_ANALOGUE_NOT_PHYSICAL_PROOF",
+        "SYMBOL_SURFACE_PREMISE_BOUND_ONLY"
+      ],
+      "use_when": [
+        "회전·축·관측자·기준계 관계를 구조적으로 검산할 때",
+        "2D Projection과 3D Pose의 비유일성을 보존해야 할 때",
+        "물리회전과 추상 역할변환의 비동일성을 판정할 때",
+        "표현식 B′ ← A ∣ B → A′의 Local Binding 조건을 검토할 때"
+      ],
+      "full_document_required_when": [
+        "50개 Correction 적용계보를 직접 검산할 때",
+        "16개 Conflict와 24개 Unresolved/Next Data를 사용할 때",
+        "Source URL·Record ID·Processing Lineage가 필요한 주장을 할 때"
+      ],
+      "do_not_infer": [
+        "Head summary is not the full Track DB.",
+        "The symbol surface has no externally proven universal semantics.",
+        "Operational illustration is not empirical validation.",
+        "Abstract transformation is not physical rotation.",
+        "Unresolved items are not silently resolved."
+      ],
+      "availability_gate": "VERIFY_TRACKDB_BRANCH_COMMIT_TREE_GIT_BLOB_AT_READ_TIME",
+      "full_document_payload_included": true,
+      "full_document_source": "DUAL_REGISTRATION_PACKAGE_PAYLOAD"
+    },
+    {
+      "track_db_hash": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88",
+      "track_db_path": "06_track_db/01_result_data/1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+      "track_db_object_id": "HRTDB_A_RESULT_DATA_XYZ_US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+      "cycle_id": "US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+      "subject_id": "US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+      "final_verdict": "PASS_CAPITAL_MARKET_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+      "promotion_verdict": "PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS",
+      "index_object_hash": "14354c1bb3e470cf89e93950a6ba625a993df9ae00edaefdb102e8ec6f9ffeb5",
+      "index_path": "06_track_db/02_index/14354c1bb3e470cf89e93950a6ba625a993df9ae00edaefdb102e8ec6f9ffeb5.A.json",
+      "head_hash": "f30be95b349cb0f60c7fc4ca31ecd8b72124df295a820d61a0d57cc93147beff",
+      "head_path": "06_track_db/04_head/objects/f30be95b349cb0f60c7fc4ca31ecd8b72124df295a820d61a0d57cc93147beff.A.json",
+      "title": "U.S. Equity Index Futures–Cash Opening Boundary: Session, Auction, and Price-state Formation",
+      "short_summary": "CME equity-index futures, Nasdaq/NYSE opening mechanisms, official-open subtypes, pre-execution indications, quote/trade identity, settlement/SOQ, halt/LULD and source/effective-state boundaries. Contains 15 canonical records, 16 source-backed relations, 12 internal boundaries and 3 schema candidates.",
+      "source_scope": [
+        "CME Group",
+        "Nasdaq Trader",
+        "NYSE",
+        "U.S. SEC",
+        "42 canonical external Source URLs",
+        "56 upstream source records"
+      ],
+      "preserved_state_counts": {
+        "Result_Data_record_count": 15,
+        "confirmed_source_backed_relation_count": 16,
+        "verified_internal_scope_boundary_count": 12,
+        "schema_candidate_count": 3,
+        "compatible_difference_count": 369,
+        "reference_frame_difference_count": 12,
+        "conflict_count": 16,
+        "ambiguity_count": 18,
+        "counterexample_count": 13,
+        "base_exclusion_count": 12,
+        "missing_counterpart_count": 15,
+        "unresolved_group_count": 20,
+        "required_next_data_group_count": 12,
+        "correction_record_count": 45
+      },
+      "keywords": [
+        "CME equity-index futures",
+        "Nasdaq Opening Cross",
+        "NYSE Opening Auction",
+        "official opening price",
+        "indicative price",
+        "imbalance",
+        "quote",
+        "trade",
+        "daily settlement",
+        "Special Opening Quotation",
+        "LULD",
+        "effective state",
+        "source identity"
+      ],
+      "relation_keys": [
+        "FUTURES_SESSION_NOT_CASH_RTH",
+        "INDICATIVE_NOT_EXECUTION",
+        "QUOTE_NOT_TRADE",
+        "OFFICIAL_OPEN_TYPE_FAMILY",
+        "LAST_TRADE_NOT_DAILY_SETTLEMENT",
+        "DAILY_SETTLEMENT_NOT_FINAL_SETTLEMENT",
+        "OPENING_INDEX_NOT_SOQ",
+        "LIMIT_STATE_NOT_HALT",
+        "CASH_LULD_NOT_FUTURES_HALT",
+        "COMPARABLE_NOT_PREDICTIVE",
+        "MISSING_COUNTERPART_NOT_CONFIRMED_RELATION"
+      ],
+      "use_when": [
+        "시장 개장경계에서 서로 다른 가격상태를 구분할 때",
+        "선물·현물·개장경매·첫 거래·정산값을 비교할 때",
+        "현재·미래효력·역사자료를 분리할 때",
+        "CFD 또는 Provider Quote를 Exchange Price로 오인하지 않도록 할 때"
+      ],
+      "full_document_required_when": [
+        "45개 Function.2 Correction 적용계보를 검산할 때",
+        "16개 Conflict와 20개 Unresolved Group을 사용할 때",
+        "42개 정본 Source URL과 Source alias 관계를 확인할 때",
+        "MES 정산시간 공식문서 충돌을 사용할 때"
+      ],
+      "do_not_infer": [
+        "This Track DB is not an investment recommendation.",
+        "This Track DB does not predict price direction.",
+        "Indicative or imbalance data is not execution.",
+        "Historical exception is not current default.",
+        "A source-less provider object is not a confirmed relation.",
+        "Unresolved official-source conflict is not silently resolved."
+      ],
+      "availability_gate": "VERIFY_TRACKDB_BRANCH_COMMIT_TREE_GIT_BLOB_AT_READ_TIME",
+      "full_document_payload_included": true,
+      "full_document_source": "DUAL_REGISTRATION_PACKAGE_PAYLOAD"
     }
   ]
 }

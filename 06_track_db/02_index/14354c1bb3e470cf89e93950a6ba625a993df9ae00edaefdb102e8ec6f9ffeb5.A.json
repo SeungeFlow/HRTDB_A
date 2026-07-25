@@ -1,0 +1,67 @@
+{
+  "object_class": "TRACK_DB_INDEX_ENTRY",
+  "state": "LOCAL_HOLDING_CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "track_db": {
+    "hash": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88",
+    "filename": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+    "future_path": "06_track_db/01_result_data/1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "subject_id": "US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "cycle_id": "US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "Result_Data_record_count": 15,
+    "confirmed_source_backed_relation_count": 16,
+    "verified_internal_scope_boundary_count": 12,
+    "schema_candidate_count": 3,
+    "final_verdict": "PASS_CAPITAL_MARKET_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+    "promotion_verdict": "PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS"
+  },
+  "relations": {
+    "promotion_verification_hash": "729977b3b7729012950d32288fbfe1f8497a81f8ff5cf80f646bff9a41da7550",
+    "promotion_verification_future_path": "06_track_db/05_promotion/729977b3b7729012950d32288fbfe1f8497a81f8ff5cf80f646bff9a41da7550.A.json",
+    "lineage_hash": "3506ee93eda46c8a0100ed01c7dfa46ec45cf60dbaeb9134e57f37b39b69b3cf",
+    "lineage_future_path": "06_track_db/03_lineage/3506ee93eda46c8a0100ed01c7dfa46ec45cf60dbaeb9134e57f37b39b69b3cf.A.json",
+    "head_object_hash": "f30be95b349cb0f60c7fc4ca31ecd8b72124df295a820d61a0d57cc93147beff",
+    "head_object_future_path": "06_track_db/04_head/objects/f30be95b349cb0f60c7fc4ca31ecd8b72124df295a820d61a0d57cc93147beff.A.json",
+    "global_catalog_state": "NOT_GENERATED_PENDING_DUAL_TRACK_DB_REMOTE_REBIND",
+    "head_root_index_state": "NOT_GENERATED_PENDING_DUAL_TRACK_DB_REMOTE_REBIND",
+    "head_shard_state": "NOT_GENERATED_PENDING_DUAL_TRACK_DB_REMOTE_REBIND"
+  },
+  "retrieval": {
+    "hash_prefix": "15",
+    "keywords": [
+      "CME equity-index futures",
+      "Nasdaq Opening Cross",
+      "NYSE Opening Auction",
+      "official opening price",
+      "indicative price",
+      "imbalance",
+      "quote",
+      "trade",
+      "daily settlement",
+      "Special Opening Quotation",
+      "LULD",
+      "effective state",
+      "source identity"
+    ],
+    "relation_keys": [
+      "FUTURES_SESSION_NOT_CASH_RTH",
+      "INDICATIVE_NOT_EXECUTION",
+      "QUOTE_NOT_TRADE",
+      "OFFICIAL_OPEN_TYPE_FAMILY",
+      "LAST_TRADE_NOT_DAILY_SETTLEMENT",
+      "DAILY_SETTLEMENT_NOT_FINAL_SETTLEMENT",
+      "OPENING_INDEX_NOT_SOQ",
+      "LIMIT_STATE_NOT_HALT",
+      "CASH_LULD_NOT_FUTURES_HALT",
+      "COMPARABLE_NOT_PREDICTIVE",
+      "MISSING_COUNTERPART_NOT_CONFIRMED_RELATION"
+    ],
+    "full_document_required_when": [
+      "45개 Function.2 Correction 적용계보를 검산할 때",
+      "16개 Conflict와 20개 Unresolved Group을 사용할 때",
+      "42개 정본 Source URL과 Source alias 관계를 확인할 때",
+      "MES 정산시간 공식문서 충돌을 사용할 때"
+    ]
+  }
+}

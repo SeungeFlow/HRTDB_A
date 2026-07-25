@@ -1,0 +1,24 @@
+{
+  "object_class": "TRACK_DB_HEAD_SHARD",
+  "state": "CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "routing_prefix": "15",
+  "entry_count": 1,
+  "entries": [
+    {
+      "track_db_hash": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88",
+      "track_db_filename": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+      "track_db_path": "06_track_db/01_result_data/1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+      "head_object_hash": "f30be95b349cb0f60c7fc4ca31ecd8b72124df295a820d61a0d57cc93147beff",
+      "head_object_path": "06_track_db/04_head/objects/f30be95b349cb0f60c7fc4ca31ecd8b72124df295a820d61a0d57cc93147beff.A.json",
+      "subject_id": "US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+      "keyword_subset": [
+        "CME equity-index futures",
+        "Nasdaq Opening Cross",
+        "NYSE Opening Auction",
+        "official opening price",
+        "indicative price"
+      ]
+    }
+  ]
+}

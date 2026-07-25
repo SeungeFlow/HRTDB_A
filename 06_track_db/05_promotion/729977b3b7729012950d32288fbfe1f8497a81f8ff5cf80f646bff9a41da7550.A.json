@@ -1,0 +1,57 @@
+{
+  "object_class": "TRACK_DB_PROMOTION_VERIFICATION",
+  "state": "PROMOTION_APPROVED_LOCAL_HOLDING_PENDING_REMOTE_REGISTRATION",
+  "repository": "SeungeFlow/HRTDB_A",
+  "repository_seat_code": "A",
+  "coordination": {
+    "instance": "gpt.logi",
+    "fixed_seat": "HRTDB_A::gpt.xyzt",
+    "role": "FINAL_RESULT_DATA_VERIFICATION_AND_TRACK_DB_PROMOTION"
+  },
+  "track_db": {
+    "hash": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88",
+    "canonical_filename": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+    "exact_byte_count": 660221,
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "object_class": "HRTDB_CAPITAL_MARKET_RESULT_DATA_XYZ",
+    "cycle_class": "US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "body_is_exact_verified_result_data": true
+  },
+  "verification_gate": {
+    "direct_input_count": 4,
+    "correction_record_count": 45,
+    "Result_Data_record_count": 15,
+    "confirmed_source_backed_relation_count": 16,
+    "verified_internal_scope_boundary_count": 12,
+    "schema_candidate_count": 3,
+    "conflict_count": 16,
+    "counterexample_count": 13,
+    "missing_counterpart_count": 15,
+    "unresolved_group_count": 20,
+    "required_next_data_group_count": 12,
+    "upstream_source_record_count": 56,
+    "canonical_external_source_url_count": 42,
+    "source_less_claim_promoted": false
+  },
+  "verification_corrections": {
+    "XZ_boundary_notes_restored": 15,
+    "relation_statement_corrected": [
+      "CM-MKT-CR-004"
+    ],
+    "non_source_marker_reclassified": [
+      "CM-MKT-CR-014"
+    ],
+    "Data_Z_hash_materialized": "4f956d94467f01ee2e8682ca6614a1332b149f107810b6457cd3b94485f44667",
+    "substantive_market_analysis_change": false
+  },
+  "final_verification_report": {
+    "hash": "a450df229f4360c537592dc61f1905ad92e75b007314276bf8cccf69746418ad",
+    "filename": "a450df229f4360c537592dc61f1905ad92e75b007314276bf8cccf69746418ad.A.md"
+  },
+  "promotion_certificate": {
+    "hash": "4371ccd3c76061ed658903a2b851dd84392bf79325d3ca2d588d419b830d4149",
+    "filename": "4371ccd3c76061ed658903a2b851dd84392bf79325d3ca2d588d419b830d4149.A.md"
+  },
+  "promotion_verdict": "PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS",
+  "github_registration": "NOT_INCLUDED_PENDING_DUAL_TRACK_DB_REMOTE_REGISTRATION"
+}

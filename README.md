@@ -29,6 +29,30 @@ Current Stable Entry:
 - [`HEAD_INDEX.json`](06_track_db/04_head/HEAD_INDEX.json)
 - [`Head Retrieval Contract`](06_track_db/04_head/contracts/cf7dcf65f3732777db4920563cd2f344e607540914bc226eac180ec0890f8deb.A.md)
 
+## Dual Track DB Routes
+
+### Rotation–Axis Relation Structure
+
+- Title: Rotation–Axis Relation Structure
+- Subject ID: `ROTATION_AXIS_RELATION_STRUCTURE`
+- Exact Track DB Hash: `d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2`
+- Exact Body: [`d11bd436...A.md`](06_track_db/01_result_data/d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md)
+- Exact Index: [`bd6d054a...A.json`](06_track_db/02_index/bd6d054a19a60e0a3b67f588472131ff311403870e9bf71adfab685febe183ef.A.json)
+- Exact Head: [`75e1b15e...A.json`](06_track_db/04_head/objects/75e1b15e38074ce5fe437a393f8f074bd2ee4bedddf6941cdd56e8191308bfbd.A.json)
+- Promotion: `PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS`
+- Unresolved Items Present: `true`
+
+### U.S. Equity Index Futures–Cash Opening Price State
+
+- Title: U.S. Equity Index Futures–Cash Opening Boundary: Session, Auction, and Price-state Formation
+- Subject ID: `US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE`
+- Exact Track DB Hash: `1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88`
+- Exact Body: [`1523d068...A.md`](06_track_db/01_result_data/1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md)
+- Exact Index: [`14354c1b...A.json`](06_track_db/02_index/14354c1bb3e470cf89e93950a6ba625a993df9ae00edaefdb102e8ec6f9ffeb5.A.json)
+- Exact Head: [`f30be95b...A.json`](06_track_db/04_head/objects/f30be95b349cb0f60c7fc4ca31ecd8b72124df295a820d61a0d57cc93147beff.A.json)
+- Promotion: `PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS`
+- Unresolved Items Present: `true`
+
 ```text
 Catalog ≠ Track DB
 Head ≠ Track DB

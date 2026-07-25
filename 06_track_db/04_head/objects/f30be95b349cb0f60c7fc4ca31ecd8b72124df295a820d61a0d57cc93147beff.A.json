@@ -1,0 +1,103 @@
+{
+  "object_class": "TRACK_DB_HEAD",
+  "state": "LOCAL_HOLDING_CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "relation": "HEAD_OF",
+  "track_db": {
+    "hash": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88",
+    "registered_filename": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+    "repository": "SeungeFlow/HRTDB_A",
+    "future_branch": "TrackDB",
+    "future_path": "06_track_db/01_result_data/1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88.A.md",
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "cycle_id": "US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "subject_id": "US_EQUITY_INDEX_FUTURES_CASH_OPENING_PRICE_STATE",
+    "final_verdict": "PASS_CAPITAL_MARKET_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+    "promotion_verdict": "PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS"
+  },
+  "head": {
+    "title": "U.S. Equity Index Futures–Cash Opening Boundary: Session, Auction, and Price-state Formation",
+    "short_summary": "CME equity-index futures, Nasdaq/NYSE opening mechanisms, official-open subtypes, pre-execution indications, quote/trade identity, settlement/SOQ, halt/LULD and source/effective-state boundaries. Contains 15 canonical records, 16 source-backed relations, 12 internal boundaries and 3 schema candidates.",
+    "source_scope": [
+      "CME Group",
+      "Nasdaq Trader",
+      "NYSE",
+      "U.S. SEC",
+      "42 canonical external Source URLs",
+      "56 upstream source records"
+    ],
+    "preserved_state_counts": {
+      "Result_Data_record_count": 15,
+      "confirmed_source_backed_relation_count": 16,
+      "verified_internal_scope_boundary_count": 12,
+      "schema_candidate_count": 3,
+      "compatible_difference_count": 369,
+      "reference_frame_difference_count": 12,
+      "conflict_count": 16,
+      "ambiguity_count": 18,
+      "counterexample_count": 13,
+      "base_exclusion_count": 12,
+      "missing_counterpart_count": 15,
+      "unresolved_group_count": 20,
+      "required_next_data_group_count": 12,
+      "correction_record_count": 45
+    }
+  },
+  "context_head": {
+    "keywords": [
+      "CME equity-index futures",
+      "Nasdaq Opening Cross",
+      "NYSE Opening Auction",
+      "official opening price",
+      "indicative price",
+      "imbalance",
+      "quote",
+      "trade",
+      "daily settlement",
+      "Special Opening Quotation",
+      "LULD",
+      "effective state",
+      "source identity"
+    ],
+    "relation_keys": [
+      "FUTURES_SESSION_NOT_CASH_RTH",
+      "INDICATIVE_NOT_EXECUTION",
+      "QUOTE_NOT_TRADE",
+      "OFFICIAL_OPEN_TYPE_FAMILY",
+      "LAST_TRADE_NOT_DAILY_SETTLEMENT",
+      "DAILY_SETTLEMENT_NOT_FINAL_SETTLEMENT",
+      "OPENING_INDEX_NOT_SOQ",
+      "LIMIT_STATE_NOT_HALT",
+      "CASH_LULD_NOT_FUTURES_HALT",
+      "COMPARABLE_NOT_PREDICTIVE",
+      "MISSING_COUNTERPART_NOT_CONFIRMED_RELATION"
+    ],
+    "use_when": [
+      "시장 개장경계에서 서로 다른 가격상태를 구분할 때",
+      "선물·현물·개장경매·첫 거래·정산값을 비교할 때",
+      "현재·미래효력·역사자료를 분리할 때",
+      "CFD 또는 Provider Quote를 Exchange Price로 오인하지 않도록 할 때"
+    ],
+    "full_document_required_when": [
+      "45개 Function.2 Correction 적용계보를 검산할 때",
+      "16개 Conflict와 20개 Unresolved Group을 사용할 때",
+      "42개 정본 Source URL과 Source alias 관계를 확인할 때",
+      "MES 정산시간 공식문서 충돌을 사용할 때"
+    ],
+    "do_not_infer": [
+      "This Track DB is not an investment recommendation.",
+      "This Track DB does not predict price direction.",
+      "Indicative or imbalance data is not execution.",
+      "Historical exception is not current default.",
+      "A source-less provider object is not a confirmed relation.",
+      "Unresolved official-source conflict is not silently resolved."
+    ]
+  },
+  "source_lineage": {
+    "head_generated_from_exact_track_db_hash": "1523d068820c1ca704d3a23cc86b7fb1e3d62711c5646c3afef3b4ab84928c88",
+    "promotion_verification_hash": "729977b3b7729012950d32288fbfe1f8497a81f8ff5cf80f646bff9a41da7550",
+    "verification_report_hash": "a450df229f4360c537592dc61f1905ad92e75b007314276bf8cccf69746418ad",
+    "promotion_certificate_hash": "4371ccd3c76061ed658903a2b851dd84392bf79325d3ca2d588d419b830d4149",
+    "full_document_body_mutated_after_hash": false
+  }
+}

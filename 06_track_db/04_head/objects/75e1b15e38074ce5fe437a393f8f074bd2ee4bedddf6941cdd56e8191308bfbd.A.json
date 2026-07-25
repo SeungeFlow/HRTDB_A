@@ -1,0 +1,95 @@
+{
+  "object_class": "TRACK_DB_HEAD",
+  "state": "LOCAL_HOLDING_CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "relation": "HEAD_OF",
+  "track_db": {
+    "hash": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2",
+    "registered_filename": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md",
+    "repository": "SeungeFlow/HRTDB_A",
+    "future_branch": "TrackDB",
+    "future_path": "06_track_db/01_result_data/d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md",
+    "object_id": "HRTDB_A_RESULT_DATA_XYZ_ROTATION_AXIS_RELATION_STRUCTURE",
+    "cycle_id": "ROTATION_AXIS_RELATION_STRUCTURE",
+    "subject_id": "ROTATION_AXIS_RELATION_STRUCTURE",
+    "final_verdict": "PASS_RESULT_DATA_WITH_UNRESOLVED_ITEMS",
+    "promotion_verdict": "PASS_TRACK_DB_PROMOTION_ELIGIBLE_WITH_UNRESOLVED_ITEMS"
+  },
+  "head": {
+    "title": "Rotation–Axis Relation Structure",
+    "short_summary": "Frame·Observer·Axis·Transformation·Representation·Identity·Source 경계를 보존하고 세 Function.2의 50개 Correction을 적용한 15개 Canonical Result.Data Record. 19개 Source-backed Confirmed Relation과 1개 Verified Internal Scope Boundary를 분리한다.",
+    "source_scope": [
+      "DATA_X_REALITY",
+      "DATA_Y_TERMS_ORIGINS",
+      "DATA_Z_FORMAL_MODELS",
+      "FUNCTION_1_XY_XZ_YZ",
+      "RESULT_XYZ",
+      "FUNCTION_2_XY_XZ_YZ",
+      "GPT_XYZT_VERIFICATION_CORRECTION"
+    ],
+    "preserved_state_counts": {
+      "result_data_record_count": 15,
+      "source_backed_confirmed_relation_count": 19,
+      "verified_internal_scope_boundary_count": 1,
+      "compatible_multi_perspective_state_count": 13,
+      "reference_frame_dependent_difference_count": 12,
+      "preserved_conflict_count": 16,
+      "ambiguity_count": 18,
+      "counterexample_count": 16,
+      "unresolved_state_count": 24,
+      "required_next_data_count": 24,
+      "excluded_claim_count": 8,
+      "correction_record_count": 50
+    }
+  },
+  "context_head": {
+    "keywords": [
+      "rotation",
+      "axis",
+      "reference frame",
+      "observer",
+      "projection",
+      "orientation",
+      "identity",
+      "SO(2)",
+      "SO(3)",
+      "SE(3)",
+      "representation",
+      "provenance"
+    ],
+    "relation_keys": [
+      "ROTATION_NOT_TRANSLATION",
+      "SPIN_NOT_ORBIT",
+      "ACTIVE_NOT_PASSIVE",
+      "AXIS_NOT_OBSERVER_OR_BOUNDARY",
+      "PROJECTION_NOT_PATH",
+      "POSITION_NOT_IDENTITY",
+      "FORMAL_ANALOGUE_NOT_PHYSICAL_PROOF",
+      "SYMBOL_SURFACE_PREMISE_BOUND_ONLY"
+    ],
+    "use_when": [
+      "회전·축·관측자·기준계 관계를 구조적으로 검산할 때",
+      "2D Projection과 3D Pose의 비유일성을 보존해야 할 때",
+      "물리회전과 추상 역할변환의 비동일성을 판정할 때",
+      "표현식 B′ ← A ∣ B → A′의 Local Binding 조건을 검토할 때"
+    ],
+    "full_document_required_when": [
+      "50개 Correction 적용계보를 직접 검산할 때",
+      "16개 Conflict와 24개 Unresolved/Next Data를 사용할 때",
+      "Source URL·Record ID·Processing Lineage가 필요한 주장을 할 때"
+    ],
+    "do_not_infer": [
+      "Head summary is not the full Track DB.",
+      "The symbol surface has no externally proven universal semantics.",
+      "Operational illustration is not empirical validation.",
+      "Abstract transformation is not physical rotation.",
+      "Unresolved items are not silently resolved."
+    ]
+  },
+  "source_lineage": {
+    "head_generated_from_exact_track_db_hash": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2",
+    "promotion_verification_hash": "eb3bf77c7400352e2f1549eb7674679561f189dd1b580db8e15d7d8d79021e00",
+    "verification_certificate_hash": "08142cdc959ec050230c363fe09a87e1da130a75f2a53a92b8924ca11bd3e235",
+    "full_document_body_mutated_after_hash": false
+  }
+}

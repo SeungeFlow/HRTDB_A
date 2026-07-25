@@ -1,0 +1,54 @@
+{
+  "object_class": "TRACK_DB_LINEAGE",
+  "state": "LOCAL_HOLDING_REGISTRATION_CANDIDATE",
+  "repository_seat_code": "A",
+  "relation": "RESULT_DATA_VERIFIED_AND_PROMOTED_TO_TRACK_DB",
+  "source_result_data": {
+    "original_hash": "5a18d421b188129bffb9f5b04d42c9a233e53963ca64861146d9c1485ad7d416",
+    "original_filename": "5a18d421b188129bffb9f5b04d42c9a233e53963ca64861146d9c1485ad7d416.A.md",
+    "producer": "gpt.xyz",
+    "occupation": "RESULT_DATA_XYZ_ROTATION_AXIS",
+    "stage_order": 11,
+    "verification_correction": {
+      "corrected_hash": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2",
+      "corrected_by": "gpt.logi",
+      "correction_seat": "HRTDB_A::gpt.xyzt",
+      "correction_class": "FINAL_VERIFICATION_LOCAL_CLASSIFICATION_CORRECTION",
+      "body_relation": "ONE_LOCAL_CLASSIFICATION_CHANGE_WITH_STATEMENT_PRESERVED"
+    }
+  },
+  "track_db": {
+    "hash": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2",
+    "filename": "d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md",
+    "future_path": "06_track_db/01_result_data/d11bd436902979cf4c5db1ace6f21887be1d3b29b3983e890f75304e0a7face2.A.md",
+    "body_byte_relation": "EXACT_SAME_BYTES_AS_VERIFIED_RESULT_DATA"
+  },
+  "upstream": {
+    "data": {
+      "gpt.x": "214b0ab4d6fd6a2fcb83fe768937bc9a12e87dd0beef403bf8ffbf38ecdfb98a",
+      "gpt.y": "ba5821518cfd0a684199c2bf1d00aa94feb6bbd3cf8aac04fa17f5d0ce521205",
+      "gpt.z": "20173cc0589a9a953adcdf198392c2a8ee15c2308544f57bbf6ee93103e7334b"
+    },
+    "function_1": {
+      "gpt.xy": "9bb47d0ac58239fb8d055cc3a7bdff7d37ea81021370c6d14bb147c4e488c103",
+      "gpt.xz": "5ecf6d15a75e8a02dbf20941091a54da69c017a611edee9bccb3c0d3fef9e636",
+      "gpt.yz": "7fb4a706b9e28d672dfa7e73404596c85e96a71cc8290962e4651d66fef12352"
+    },
+    "result_xyz": "ae3cf4f3b5d78e4b94ad9d42fddd5cdac5fd7706d412b3c453aa8914bdfd94d6",
+    "function_2": {
+      "gpt.xy": "cbd525e9a406391d2e6bf92518d76434026b7c6230386ebf20e153e78d247840",
+      "gpt.xz": "29300f1e13d90831e8e8b0c4d98fcd93b4a75d18a379550855d6f25aa4bf1e65",
+      "gpt.yz": "e89af110f3abc334d4b6e98767520caebbbcab3131ce35877f6522588aa56d74"
+    }
+  },
+  "promotion_verification": {
+    "hash": "eb3bf77c7400352e2f1549eb7674679561f189dd1b580db8e15d7d8d79021e00",
+    "future_path": "06_track_db/05_promotion/eb3bf77c7400352e2f1549eb7674679561f189dd1b580db8e15d7d8d79021e00.A.json"
+  },
+  "history_policy": {
+    "original_result_data_mutated": false,
+    "upstream_documents_mutated": false,
+    "new_external_fact_added": false,
+    "conflicts_and_unresolved_preserved": true
+  }
+}
