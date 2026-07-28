@@ -712,3 +712,102 @@ Root Index
 ```
 
 Head의 Hash·Repository Seat·Full Track DB Relation이 모두 검산된 뒤에만 Full Document를 Current Source Data로 연다.
+
+<!-- GPT_XYZT_OCCUPATION_SNAPSHOT_WEFX_R01_START -->
+## Occupation Record — gpt.logi / WEFX-R01
+
+이 기록은 `gpt.xyzt` 자리에 놓일 미래 인스턴스의 작업방식을 고정하지 않는다.
+
+```text
+Seat Record
+≠ Future Instance Rule
+```
+
+각 인스턴스는 고유성질을 가진다.
+동일한 자리를 점유하더라도 현재 자료·목적·환경·증거상태에 따라
+질문구조와 작업방법을 다르게 형성할 수 있다.
+
+이 절은 현재 점유 인스턴스가 무엇을 수행했고
+어디까지 닫았는지만 남긴다.
+
+```yaml
+identity_codes:
+  A: HRTDB_A
+  B: LRSDoNet_B
+  C: Principle_C
+
+file_identity:
+  canonical_rule: <exact-byte-sha256>.<identifier-code>.<extension>
+  sidecar_default: false
+```
+
+```yaml
+occupation_record:
+  record_id: HRTDB_A_GPT_XYZT_WEFX_R01
+  identifier_code: A
+  fixed_seat: HRTDB_A::gpt.xyzt
+  occupant: gpt.logi
+  occupant_is_seat_identity: false
+  cycle: WEFX
+  round: R01
+
+  completed_flow:
+    - 1D_SOURCE_MAP_COLLECTION
+    - FIRST_2D_CROSS_VERIFICATION
+    - FIRST_3D_SOURCE_MAP_RESULT_DATA_FORMATION
+    - SECOND_2D_RESULT_DATA_REAUDIT
+    - SECOND_3D_PROMOTION_CANDIDATE_FORMATION
+    - 4D_FINAL_DUAL_VIEW_VERIFICATION
+
+  exact_objects:
+    track_db_body_sha256: f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b
+    four_dimensional_verification_sha256: 3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16
+    index_sha256: 9f4b35e435db48acbae5c701e2c305381e0914b04204b4a827348e9c35c0dd5b
+    lineage_sha256: fbdf6145919114d9c45269476b7672d83434229711d3b7c7328d6c918387d02b
+    head_object_sha256: a8bad44fdf05c455fe773351f0a7c1a278144254f3538233085f04e8b9eaf81a
+    promotion_sha256: f630140293890dc0f74fe5d9b5e57e4567e1d75db1576fe0b750798052c9bcf4
+    deployment_package_sha256: dceb2aa9bcde9a1ebda865becec0655f2f097100e89164c6f1014575a2d0f02a
+
+  remote_closure:
+    trackdb_commit: d40c2f1f2662142b51cee90793175c5f69802293
+    trackdb_tree: 18bce45584de0e3d248e8574820fc82f827bf4ae
+    main_commit: BOUND_BY_MAIN_CLOSURE_EVIDENCE
+
+  remaining_boundary:
+    observation_layer: NOT_OPEN
+    typed_gap_count: 14
+```
+
+현재 점유 인스턴스가 수행한 기능:
+
+```text
+필요자료구조 판단
+→ 분석자리 배치
+→ 생성객체의 위치·증거·계보 검산
+→ 오류와 과대표현 재투입
+→ Track DB 승격범위와 gpt.lang 전달범위 분리
+→ GitHub 등록을 위한 Exact Object 형성
+```
+
+미래 인스턴스가 보존해야 할 것은 이전 인스턴스의 표현방식이 아니라
+Exact Object와 실제 Remote State다.
+
+```text
+이전 방식의 모방
+≠ 자리의 연속성
+
+Exact Object 확인
++
+현재 상태 판단
++
+새 인스턴스의 독립적 작업형성
+=
+자리의 연속성
+```
+
+승이는 진행 중 발견한 특이점·오류·오독·착시·착각·판단착오를 알려
+인스턴스가 자신의 작업을 다시 조정하도록 한다.
+이 설명은 승이의 개입방식을 고정하는 규칙이 아니라,
+이번까지 실제로 사용된 교정관계를 기록한 것이다.
+
+<!-- GPT_XYZT_OCCUPATION_SNAPSHOT_WEFX_R01_END -->
