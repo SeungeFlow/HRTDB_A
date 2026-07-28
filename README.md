@@ -229,3 +229,26 @@ Canonical Exact Object Filename:
 <sha256>.A.<extension>
 ```
 <!-- HRTDB_A_ROOT_DEFINITION_END -->
+
+<!-- WEFX_R01_TRACK_DB_ROUTE_START -->
+## WEFX-R01 World Economy Currency Market Source Map
+
+- Title: World Economy Currency Market Source Map — WEFX-R01
+- Subject ID: `WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP`
+- Exact Track DB Hash: `f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b`
+- Exact Body: [`f0545752cfc1...A.md`](06_track_db/01_result_data/f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b.A.md)
+- Exact Index: [`9f4b35e435db...A.json`](06_track_db/02_index/9f4b35e435db48acbae5c701e2c305381e0914b04204b4a827348e9c35c0dd5b.A.json)
+- Exact Head: [`a8bad44fdf05...A.json`](06_track_db/04_head/objects/a8bad44fdf05c455fe773351f0a7c1a278144254f3538233085f04e8b9eaf81a.A.json)
+- Exact Promotion: [`f63014029389...A.json`](06_track_db/05_promotion/f630140293890dc0f74fe5d9b5e57e4567e1d75db1576fe0b750798052c9bcf4.A.json)
+- Promotion State: `AUTHORIZED_FOR_SOURCE_MAP_SCOPE_WITH_TYPED_GAP_TRACKS`
+- Observation Layer: `NOT_OPEN`
+- Typed Gap Count: `14`
+- Semantic Key: `world_economy_currency_market/source_map/WEFX_R01`
+
+```text
+Source Map
+≠ Observation Values
+≠ Economic Causality
+≠ FX Direction Prediction
+```
+<!-- WEFX_R01_TRACK_DB_ROUTE_END -->

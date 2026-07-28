@@ -1,0 +1,140 @@
+{
+  "body_sha256": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b",
+  "document_class": "WEFX_R01_FULL_FORMATION_LINEAGE",
+  "document_type": "HRTDB_A_TRACK_DB_LINEAGE_OBJECT",
+  "formation_route": [
+    "1D_SOURCE_MAP_COLLECTION",
+    "FIRST_2D_CROSS_VERIFICATION",
+    "FIRST_3D_SOURCE_MAP_RESULT_DATA_FORMATION",
+    "SECOND_2D_RESULT_DATA_REAUDIT",
+    "SECOND_3D_PROMOTION_CANDIDATE_FORMATION",
+    "4D_FINAL_DUAL_VIEW_VERIFICATION"
+  ],
+  "lineage": [
+    {
+      "role": "WEFX_R00_FOUNDATION_CHARTER",
+      "sha256": "c41b44962c288c159925e9e103571876c28bce6f6723951c94d39e21fa55c073"
+    },
+    {
+      "role": "WEFX_R01_MASTER_DIRECTIVE",
+      "sha256": "ed6437cdeb835eaf39b4d9e65d0707950780f65aa75c3a23800ba11d4d70592f"
+    },
+    {
+      "role": "WEFX_R01_1D_X_DIRECTIVE",
+      "sha256": "020d399f9f754885b7c5d1ee609358c5d19f82ab90e757eca663d39082d2ece2"
+    },
+    {
+      "role": "WEFX_R01_1D_Y_DIRECTIVE",
+      "sha256": "17a620ee81077f9aaf459c59fca4bf2eb739f2445ef980a6de98ff35298092d6"
+    },
+    {
+      "role": "WEFX_R01_1D_Z_DIRECTIVE",
+      "sha256": "e459722e950f0fd1b267d3cecb2fd9aadc0f6eac2162340ea42cddbb20312162"
+    },
+    {
+      "role": "WEFX_R01_1D_X_RESULT",
+      "sha256": "d262d01b11d8db9384acbd140ff2af24c5602e13d153e63382a9471e7b0d748d"
+    },
+    {
+      "role": "WEFX_R01_1D_Y_RESULT",
+      "sha256": "4d4cd597372c95014e5730a1f5298167e624982131e1e940664de30d76d9eb71"
+    },
+    {
+      "role": "WEFX_R01_1D_Z_RESULT",
+      "sha256": "6dc562accec388e4026997622ff5dc4ac587afce2f3cc005f011b206adac252e"
+    },
+    {
+      "role": "WEFX_R01_FIRST_2D_XY_DIRECTIVE",
+      "sha256": "fbf60fa286be9537ad148bde305f6cdbb2ddc1a207cde8fab22ea2f1a7ed1973"
+    },
+    {
+      "role": "WEFX_R01_FIRST_2D_XZ_DIRECTIVE",
+      "sha256": "6e342a826852ff9700b83f93ec07f78ab6b598a64189881bb82033c4203638a2"
+    },
+    {
+      "role": "WEFX_R01_FIRST_2D_YZ_DIRECTIVE",
+      "sha256": "d63792701e9f0d1905bd3e015b5202700f15e4f83285b925bd62aca132e9ed5a"
+    },
+    {
+      "role": "WEFX_R01_FIRST_2D_XY_RESULT",
+      "sha256": "09077d3b7e154398f4598a61f3b4028c347642994c6bf12e284cd2fcae7e6857"
+    },
+    {
+      "role": "WEFX_R01_FIRST_2D_XZ_RESULT",
+      "sha256": "305e2a44b0d900fc84f7ba54c55c4668a11948dbe1d4d4d41c2865704fad1464"
+    },
+    {
+      "role": "WEFX_R01_FIRST_2D_YZ_RESULT",
+      "sha256": "48d4b1a416a272279b2138def9922b5341fbcfe6840ddb12e459d7a05f94070e"
+    },
+    {
+      "role": "WEFX_R01_FIRST_3D_DIRECTIVE",
+      "sha256": "e5728976a8673e7fff84713b07de2487d7402436e4e8951d1a19c912f2f16d72"
+    },
+    {
+      "role": "WEFX_R01_FIRST_3D_RESULT_DATA",
+      "sha256": "84c0663a994c60ae8d6db0d287f8b760317c2968ab3a6a9ea332f189d283ee3b"
+    },
+    {
+      "role": "WEFX_R01_SECOND_2D_XY_DIRECTIVE",
+      "sha256": "bf9ee917ab0df86b7073dcc295cfc2c89a89d971c73e6087ca51e6c109f2dcac"
+    },
+    {
+      "role": "WEFX_R01_SECOND_2D_XZ_DIRECTIVE",
+      "sha256": "f4dc305e0093de6dea4767e0a2b4589b844a0b5dc50cc6ce647c7c9e77735899"
+    },
+    {
+      "role": "WEFX_R01_SECOND_2D_YZ_DIRECTIVE",
+      "sha256": "48d0f8964e6d4d7bfb75d29738e496b05774d022bb5c70ee375706bb1d81d654"
+    },
+    {
+      "role": "WEFX_R01_SECOND_2D_XY_RESULT",
+      "sha256": "003f564a5a9b1b3f4fcc3fe843e07f7ccded2c37d7bd723795c608c25b541938"
+    },
+    {
+      "role": "WEFX_R01_SECOND_2D_XZ_RESULT",
+      "sha256": "ae2f0dc978808cac2afad5fcb707d06b810f9cb9c7f017a84d7f45326518d8a0"
+    },
+    {
+      "role": "WEFX_R01_SECOND_2D_YZ_RESULT",
+      "sha256": "df27860810c2d31c838a55005daaf326a4f06973760bec603f469a50017d83ef"
+    },
+    {
+      "role": "WEFX_R01_SECOND_3D_DIRECTIVE",
+      "sha256": "355747c2f598f44c0bea457f3d8bc59e4f19ac14ff172cdf3dce28052ebd5de0"
+    },
+    {
+      "role": "WEFX_R01_SECOND_3D_PROMOTION_CANDIDATE_BODY",
+      "sha256": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b"
+    },
+    {
+      "role": "WEFX_R01_4D_FINAL_VERIFICATION",
+      "sha256": "3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16"
+    }
+  ],
+  "lineage_guards": {
+    "append_only_successor": true,
+    "exact_byte_filename_required": true,
+    "parent_bytes_modified": false,
+    "transport_suffix_identity_effect": "NONE"
+  },
+  "object_identity": {
+    "object_class": "TRACK_DB_LINEAGE_OBJECT",
+    "object_id": "HRTDB_A_TRACK_DB_WEFX_R01_WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP::LINEAGE",
+    "state": "CLOSED_LOCAL_LINEAGE_READY_FOR_REMOTE_REGISTRATION"
+  },
+  "seat_system": {
+    "analytic_seats": [
+      "HRTDB_A::gpt.x",
+      "HRTDB_A::gpt.y",
+      "HRTDB_A::gpt.z",
+      "HRTDB_A::gpt.xy",
+      "HRTDB_A::gpt.xz",
+      "HRTDB_A::gpt.yz",
+      "HRTDB_A::gpt.xyz"
+    ],
+    "coordination": "gpt.logi@HRTDB_A::gpt.xyzt"
+  },
+  "track_db_id": "HRTDB_A_TRACK_DB_WEFX_R01_WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP",
+  "verification_sha256": "3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16"
+}

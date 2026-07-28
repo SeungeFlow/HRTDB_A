@@ -15,7 +15,7 @@
     "LOAD_FULL_TRACK_DB_ONLY_WHEN_REQUIRED"
   ],
   "head_contract_path": "06_track_db/04_head/contracts/cf7dcf65f3732777db4920563cd2f344e607540914bc226eac180ec0890f8deb.A.md",
-  "current_track_db_head_count": 5,
+  "current_track_db_head_count": 6,
   "shards": [
     {
       "prefix": "72",
@@ -40,6 +40,11 @@
     {
       "prefix": "15",
       "path": "06_track_db/04_head/shards/15.json",
+      "entry_count": 1
+    },
+    {
+      "prefix": "f0",
+      "path": "06_track_db/04_head/shards/f0.json",
       "entry_count": 1
     }
   ],

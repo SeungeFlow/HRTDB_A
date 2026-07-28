@@ -1,0 +1,61 @@
+{
+  "document_class": "WEFX_R01_SOURCE_MAP_TRACK_DB_INDEX",
+  "document_type": "HRTDB_A_TRACK_DB_INDEX_OBJECT",
+  "guards": [
+    "One Track DB = One Exact Verified Result.Data Document",
+    "Head / Index / Catalog / Shard != Track DB Body",
+    "Relation is not Merge",
+    "Observation Layer is not open"
+  ],
+  "object_identity": {
+    "object_class": "TRACK_DB_INDEX_OBJECT",
+    "object_id": "HRTDB_A_TRACK_DB_WEFX_R01_WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP::INDEX",
+    "state": "PROMOTION_AUTHORIZED_LOCAL_CANDIDATE"
+  },
+  "repository_target": {
+    "branch": "TrackDB",
+    "remote_registered": false,
+    "repository": "SeungeFlow/HRTDB_A",
+    "target_path": "06_track_db/01_result_data/f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b.A.md"
+  },
+  "track_db": {
+    "body": {
+      "bytes": 1826588,
+      "canonical_filename": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b.A.md",
+      "lf_count": 49620,
+      "object_class": "SECOND_3D_PROMOTION_CANDIDATE_RESULT_DATA",
+      "object_id": "WEFX_R01_SECOND_3D_SOURCE_MAP_PROMOTION_CANDIDATE",
+      "sha256": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b",
+      "state": "SECOND_3D_SOURCE_MAP_PROMOTION_CANDIDATE_COMPLETE_WITH_TYPED_GAPS"
+    },
+    "excluded_scope": [
+      "OBSERVATION_VALUES",
+      "GDP_C30_MEMBERSHIP",
+      "CURRENCY_ROLE_CLASSIFICATION",
+      "ECONOMIC_CAUSALITY",
+      "FX_DIRECTION_PREDICTION",
+      "INVESTMENT_JUDGMENT"
+    ],
+    "observation_layer": "NOT_OPEN",
+    "semantic_key": "world_economy_currency_market/source_map/WEFX_R01",
+    "source_map_scope": [
+      "SOURCE_IDENTITY",
+      "SCHEMA",
+      "TIME_VERSION",
+      "RELATION",
+      "CORRECTION",
+      "GAP",
+      "STAGE_GATE",
+      "PROCESS_LINEAGE"
+    ],
+    "stage_gate_count": 1,
+    "track_db_id": "HRTDB_A_TRACK_DB_WEFX_R01_WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP",
+    "typed_gap_count": 14
+  },
+  "verification": {
+    "four_dimensional_verification_sha256": "3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16",
+    "four_dimensional_verification_state": "4D_FINAL_VERIFICATION_COMPLETE_WITH_APPEND_ONLY_CORRECTIONS",
+    "gpt_lang_handoff": "READY_WITH_EVIDENCE_GATES",
+    "track_db_promotion": "AUTHORIZED_FOR_SOURCE_MAP_SCOPE_WITH_TYPED_GAP_TRACKS"
+  }
+}

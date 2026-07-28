@@ -1,0 +1,38 @@
+{
+  "body": {
+    "sha256": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b",
+    "target_path": "06_track_db/01_result_data/f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b.A.md"
+  },
+  "control_surface_registration": {
+    "catalog": "REMOTE_REBIND_REQUIRED",
+    "head_index": "REMOTE_REBIND_REQUIRED",
+    "readme": "REMOTE_REBIND_REQUIRED",
+    "shard": "UNASSIGNED_UNTIL_REMOTE_SCHEMA_READ"
+  },
+  "document_class": "WEFX_R01_SOURCE_MAP_HEAD_OBJECT",
+  "document_type": "HRTDB_A_TRACK_DB_HEAD_OBJECT",
+  "index": {
+    "sha256": "9f4b35e435db48acbae5c701e2c305381e0914b04204b4a827348e9c35c0dd5b",
+    "target_path": "06_track_db/02_index/9f4b35e435db48acbae5c701e2c305381e0914b04204b4a827348e9c35c0dd5b.A.json"
+  },
+  "lineage": {
+    "sha256": "fbdf6145919114d9c45269476b7672d83434229711d3b7c7328d6c918387d02b",
+    "target_path": "06_track_db/03_lineage/fbdf6145919114d9c45269476b7672d83434229711d3b7c7328d6c918387d02b.A.json"
+  },
+  "object_identity": {
+    "object_class": "TRACK_DB_HEAD_OBJECT",
+    "object_id": "HRTDB_A_TRACK_DB_WEFX_R01_WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP::HEAD",
+    "state": "LOCAL_REGISTRATION_CANDIDATE"
+  },
+  "observation_layer": "NOT_OPEN",
+  "promotion_state": "AUTHORIZED_FOR_SOURCE_MAP_SCOPE_WITH_TYPED_GAP_TRACKS",
+  "semantic_key": "world_economy_currency_market/source_map/WEFX_R01",
+  "stage_gate": "WEFX-R01-STAGE-GATE-001",
+  "track_db_id": "HRTDB_A_TRACK_DB_WEFX_R01_WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP",
+  "typed_gap_count": 14,
+  "verification_evidence": {
+    "package_path": "verification/3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16.A.md",
+    "remote_immutable_object": false,
+    "sha256": "3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16"
+  }
+}

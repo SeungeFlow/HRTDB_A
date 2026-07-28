@@ -1,0 +1,53 @@
+{
+  "authorization": {
+    "gpt_github_remote_mutation_authority": "NONE",
+    "local_promotion_authorized": true,
+    "remote_execution_requires_explicit_user_approval": true,
+    "remote_registration_authorized": false
+  },
+  "body_sha256": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b",
+  "document_class": "WEFX_R01_SOURCE_MAP_PROMOTION_AUTHORIZATION",
+  "document_type": "HRTDB_A_TRACK_DB_PROMOTION_OBJECT",
+  "excluded_object_classes": [
+    "OBSERVATION_FACT_TRACK",
+    "ECONOMIC_CAUSALITY_TRACK",
+    "CURRENCY_ROLE_RESULT_TRACK",
+    "GDP_C30_MEMBERSHIP_TRACK",
+    "MARKET_PREDICTION_TRACK"
+  ],
+  "four_dimensional_verification": {
+    "reviewer": "gpt.logi@HRTDB_A::gpt.xyzt",
+    "sha256": "3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16",
+    "state": "4D_FINAL_VERIFICATION_COMPLETE_WITH_APPEND_ONLY_CORRECTIONS"
+  },
+  "head_object_sha256": "a8bad44fdf05c455fe773351f0a7c1a278144254f3538233085f04e8b9eaf81a",
+  "index_sha256": "9f4b35e435db48acbae5c701e2c305381e0914b04204b4a827348e9c35c0dd5b",
+  "lineage_sha256": "fbdf6145919114d9c45269476b7672d83434229711d3b7c7328d6c918387d02b",
+  "object_identity": {
+    "object_class": "TRACK_DB_PROMOTION_OBJECT",
+    "object_id": "HRTDB_A_TRACK_DB_WEFX_R01_WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP::PROMOTION",
+    "state": "PROMOTION_AUTHORIZED_PENDING_REMOTE_REGISTRATION"
+  },
+  "promotable_object_classes": [
+    "SOURCE_IDENTITY_TRACK",
+    "SCHEMA_TRACK",
+    "TIME_VERSION_TRACK",
+    "RELATION_TRACK",
+    "CORRECTION_TRACK",
+    "GAP_TRACK",
+    "STAGE_GATE_TRACK",
+    "PROCESS_LINEAGE_TRACK"
+  ],
+  "promotion_verdicts": {
+    "gpt_lang_handoff": "READY_WITH_EVIDENCE_GATES",
+    "immediate_seven_instance_reentry": "NOT_REQUIRED",
+    "observation_layer": "HOLD_BY_STAGE_GATE",
+    "track_db_promotion": "AUTHORIZED_FOR_SOURCE_MAP_SCOPE_WITH_TYPED_GAP_TRACKS"
+  },
+  "track_db_id": "HRTDB_A_TRACK_DB_WEFX_R01_WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP",
+  "typed_gaps": {
+    "affected_source_objects_are_source_closed_facts": false,
+    "count": 14,
+    "promote_as_gap_tracks": true
+  }
+}

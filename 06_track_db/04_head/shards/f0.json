@@ -1,0 +1,24 @@
+{
+  "object_class": "TRACK_DB_HEAD_SHARD",
+  "state": "CURRENT_CANDIDATE",
+  "repository_seat_code": "A",
+  "routing_prefix": "f0",
+  "entry_count": 1,
+  "entries": [
+    {
+      "track_db_hash": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b",
+      "track_db_filename": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b.A.md",
+      "track_db_path": "06_track_db/01_result_data/f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b.A.md",
+      "head_object_hash": "a8bad44fdf05c455fe773351f0a7c1a278144254f3538233085f04e8b9eaf81a",
+      "head_object_path": "06_track_db/04_head/objects/a8bad44fdf05c455fe773351f0a7c1a278144254f3538233085f04e8b9eaf81a.A.json",
+      "subject_id": "WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP",
+      "keyword_subset": [
+        "world economy",
+        "currency market",
+        "source map",
+        "typed gap",
+        "stage gate"
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@
   "interface_path": "06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md",
   "head_index_path": "06_track_db/04_head/HEAD_INDEX.json",
   "routing_rule": "FIRST_TWO_HEX_OF_TRACK_DB_HASH",
-  "track_db_count": 5,
+  "track_db_count": 6,
   "reading_rule": [
     "READ_REPOSITORY_README",
     "READ_TRACKDB_BRANCH_README",
@@ -402,6 +402,68 @@
       "availability_gate": "VERIFY_TRACKDB_BRANCH_COMMIT_TREE_GIT_BLOB_AT_READ_TIME",
       "full_document_payload_included": true,
       "full_document_source": "DUAL_REGISTRATION_PACKAGE_PAYLOAD"
+    },
+    {
+      "track_db_hash": "f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b",
+      "track_db_path": "06_track_db/01_result_data/f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b.A.md",
+      "track_db_object_id": "WEFX_R01_SECOND_3D_SOURCE_MAP_PROMOTION_CANDIDATE",
+      "cycle_id": "WEFX_R01",
+      "subject_id": "WORLD_ECONOMY_CURRENCY_MARKET_SOURCE_MAP",
+      "final_verdict": "AUTHORIZED_FOR_SOURCE_MAP_SCOPE_WITH_TYPED_GAP_TRACKS",
+      "head_hash": "a8bad44fdf05c455fe773351f0a7c1a278144254f3538233085f04e8b9eaf81a",
+      "head_path": "06_track_db/04_head/objects/a8bad44fdf05c455fe773351f0a7c1a278144254f3538233085f04e8b9eaf81a.A.json",
+      "title": "World Economy Currency Market Source Map — WEFX-R01",
+      "short_summary": "WEFX-R01의 세계경제·통화시장 Source Map을 Source Identity·Schema·Time/Version·Relation·Correction·Gap·Stage Gate·Process Lineage 범위로 보존하며 Observation Layer는 열지 않은 Track DB.",
+      "source_scope": [
+        "SOURCE_IDENTITY",
+        "SCHEMA",
+        "TIME_VERSION",
+        "RELATION",
+        "CORRECTION",
+        "GAP",
+        "STAGE_GATE",
+        "PROCESS_LINEAGE"
+      ],
+      "preserved_state_counts": {
+        "typed_gap_count": 14,
+        "stage_gate_count": 1
+      },
+      "keywords": [
+        "world economy",
+        "currency market",
+        "source map",
+        "source identity",
+        "schema",
+        "time version",
+        "typed gap",
+        "stage gate"
+      ],
+      "relation_keys": [
+        "SOURCE_IDENTITY",
+        "SCHEMA",
+        "TIME_VERSION",
+        "RELATION",
+        "CORRECTION",
+        "GAP",
+        "STAGE_GATE",
+        "PROCESS_LINEAGE"
+      ],
+      "use_when": [
+        "세계경제·통화시장 Source Map의 출처·Schema·시간버전 구조가 필요할 때",
+        "WEFX-R01의 Correction·Gap·Stage Gate 계보가 필요할 때"
+      ],
+      "full_document_required_when": [
+        "Source Object별 상세근거와 14개 Typed Gap을 직접 검산할 때",
+        "Observation Layer 개방 전 Source Map 경계를 확인할 때"
+      ],
+      "do_not_infer": [
+        "Source Map is not observation values.",
+        "Track DB does not establish economic causality or FX direction prediction.",
+        "Typed gaps are preserved and not silently resolved."
+      ],
+      "availability_gate": "VERIFY_TRACKDB_BRANCH_COMMIT_TREE_GIT_BLOB_AT_READ_TIME",
+      "full_document_payload_included": true,
+      "full_document_source": "PACKAGE_PAYLOAD"
     }
   ]
 }
