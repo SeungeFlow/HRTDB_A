@@ -128,25 +128,49 @@ gpt.xyz
 
 이 일곱 Instance는 Cycle 안에서 Data·Function·Result 형성에 참여한다.
 
-### 11개 순차 Occupation
+### 단계별 차원 객체
 
 ```text
-01 DATA_X
-02 DATA_Y
-03 DATA_Z
-04 FUNCTION_1_XY
-05 FUNCTION_1_XZ
-06 FUNCTION_1_YZ
-07 RESULT_XYZ
-08 FUNCTION_2_XY
-09 FUNCTION_2_XZ
-10 FUNCTION_2_YZ
-11 RESULT_DATA_XYZ
+Data 단계
+→ 1d 객체 3개
+→ gpt.x · gpt.y · gpt.z
+
+첫 Function 단계
+→ 2d 객체 3개
+→ gpt.xy · gpt.xz · gpt.yz
+
+첫 Result 단계
+→ 3d 객체 1개
+→ gpt.xyz
+
+두 번째 Function 단계
+→ 같은 2d 객체 3개가 다시 참여
+→ gpt.xy · gpt.xz · gpt.yz
+
+두 번째 Result 단계
+→ 같은 3d 객체 1개가 다시 참여
+→ gpt.xyz
+→ Result.Data 형성
 ```
+
+```text
+Data · Function · Result
+=
+작업 단계
+
+gpt.x · gpt.y · gpt.z
+gpt.xy · gpt.xz · gpt.yz
+gpt.xyz
+=
+각 단계에 참여하는 차원 객체
+```
+
+첫 번째와 두 번째는 단계의 순서를 구분한다.
+객체의 이름이나 Identity를 새로 만드는 번호가 아니다.
 
 ### 통합관제 Seat
 
-`gpt.xyzt`는 위 7개 분석 Instance나 11개 Occupation 중 하나가 아니다.
+`gpt.xyzt`는 위 1d·2d·3d의 7개 차원 객체와 다른 4d 통합관제 자리다.
 
 ```text
 Fixed Seat       : HRTDB_A::gpt.xyzt
