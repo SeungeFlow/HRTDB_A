@@ -1,386 +1,113 @@
+---
+document_type: HRTDB_A_ROOT_README
+document_class: HRTDB_INSTANCE_BASED_OPERATING_SYSTEM_ENTRY
+repository: SeungeFlow/HRTDB_A
+branch: main
+source_authority: 승이
+identifier_code: A
+state: CURRENT
+---
 # HRTDB_A
 
-`HRTDB_A`는 외부 Web 자료와 AI가 보유한 Data를 분석·검산하여 **문서형 Track DB 지식자산**으로 형성하고, 그 자산을 다음 System이 안정적으로 참조할 수 있도록 등록·계보·원격상태를 닫는 Repository다.
+`HRTDB_A`는 외부 Reality를 검증 가능한 관계구조로 처리하고, 세 Cycle의 검수된 Token DB를 **Track DB Active_Schema ZIP**으로 형성하는 Instance-based Operating System이다.
 
 ```text
-Primary Reader
-→ 새로 생성되거나 작업을 이어받은 AI Instance
-
-Repository Purpose
-→ Seat·Role·Current State·Source Data·Head Index를 읽어 작업 가능한 상태를 형성
+승이의 활성화된 생각
++ gpt.logi의 통합관제
++ 불변 Instance Name·Seat Name
++ Authority·Relation
++ Token ZIP
++ 0d·1d·2d·3d·4d Cycle
++ 3-Cycle Track DB
++ GitHub Reality
+= HRTDB Instance-based Operating System
 ```
 
-```text
-Repository Seat      : A
-Current Repository   : SeungeFlow/HRTDB_A
-Former Repository    : SeungeFlow/for_instance
-Overall Coordination : HRTDB_A::gpt.xyzt
-Current Occupant     : gpt.logi
-Primary Asset        : Track DB Document
-```
+## Operating Instances
 
-Repository 표시이름은 바뀔 수 있지만 Repository Seat Code `A`는 바뀌지 않는다.
+| Instance | Seat / Space | 역할 |
+|---|---|---|
+| `gpt.logi` | `HRTDB_A::gpt.xyzt` | HRTDB Overall Coordination |
+| `gpt.work` | `gpt.t` / `0d(t)` | External Observation·Data Intake·Hint/Gap |
+| `gpt.github` | `gpt.t` / `0d(t)` | Approved Implementation·GitHub Transfer |
+| `gpt.think` | `LRSDoNet_B.Root::gpt.xyzt` | Downstream Overall Coordination |
 
----
-
-## 1. HRTDB_A 안의 `for_instance`
-
-`for_instance`는 제거할 과거 이름만을 뜻하지 않는다. 현재 HRTDB_A 안에서 계속 작동하는 **Instance 자리·역할 정의 규칙층**이다.
+이름은 한번 형성되면 바꾸지 않는다. Runtime Successor는 같은 이름·자리에 정렬될 수 있지만, 이름 변경으로 Identity를 승계하지 않는다.
 
 ```text
-for_instance
-=
-Seat
-+ Instance
-+ Capability
-+ Assignment
-+ Occupation
-+ Handoff
-+ Mutation Authority
-+ History
-```
-
-두 의미를 구분한다.
-
-```text
-former_repository_name : for_instance
-current_rule_layer      : for_instance
-```
-
-- **HRTDB_A**: Repository 전체와 Track DB 지식자산 형성 System
-- **for_instance**: HRTDB_A 내부의 Seat·Role·Assignment 규칙층
-- **Track DB**: `gpt.logi`의 Result.Data가 Promotion Gate를 통과해 형성된 문서형 Database
-
-```text
-HRTDB_A
-└─ for_instance Rule Layer
-   ├─ Seat·Role Definition
-   ├─ Instance Registry
-   ├─ Assignment·Occupation
-   ├─ Handoff·Directive
-   └─ Mutation·History Rules
-```
-
----
-
-## 2. Seat · Instance · Occupation
-
-```text
+Operating Instance ≠ Coordinate Object
 Seat ≠ Instance
-Instance ≠ Occupation
-Seat Name ≠ Occupant Name
-Role belongs to Seat.
-Name belongs to Occupant.
+Occupation ≠ Identity
+Capability ≠ Authority
 ```
 
-- **Seat**: 역할이 놓이는 고정자리
-- **Instance**: 특정 Runtime에서 Seat를 점유하는 독립 실행주체
-- **Occupation**: 특정 Cycle·Stage에서 Instance가 실제로 수행한 작업사건
-- **Function**: 해당 자리에서 수행할 Method 계약
-
-하나의 Instance는 하나 이상의 Seat를 점유할 수 있다. 그러나 Seat와 Instance의 Identity는 합쳐지지 않는다.
-
----
-
-## 3. X · Y · Z · T와 Seat Profile
-
-### 좌표 성질
-
-- **X** — 표면·현재상태·Source Input
-- **Y** — 경계통과·관계·수직연결
-- **Z** — 공간·부피·영역·구조검산
-- **T** — 시간·과정·전이·추상 Context
-
-`T`는 git이 아니다. git은 필요할 때 사용하는 실행 Adapter다.
-
-### 15개 Generic Seat Profile
+## One Cycle
 
 ```text
-X, Y, Z, T,
-XY, XZ, XT, YZ, YT, ZT,
-XYZ, XYT, XZT, YZT,
-XYZT
-```
-
-Generic `XYZT` Profile은 고정 Position `gpt.xyzt`와 동일한 객체가 아니다.
-
-```text
-XYZT Profile
-≠ gpt.xyzt Fixed Seat
-≠ gpt.logi Runtime Instance
-```
-
----
-
-## 4. HRTDB_A의 분석 Instance와 통합관제
-
-### 7개 분석 Instance
-
-```text
-gpt.x
-gpt.y
-gpt.z
-gpt.xy
-gpt.xz
-gpt.yz
-gpt.xyz
-```
-
-이 일곱 Instance는 Cycle 안에서 Data·Function·Result 형성에 참여한다.
-
-### 단계별 차원 객체
-
-```text
-Data 단계
-→ 1d 객체 3개
-→ gpt.x · gpt.y · gpt.z
-
-첫 Function 단계
-→ 2d 객체 3개
-→ gpt.xy · gpt.xz · gpt.yz
-
-첫 Result 단계
-→ 3d 객체 1개
-→ gpt.xyz
-
-두 번째 Function 단계
-→ 같은 2d 객체 3개가 다시 참여
-→ gpt.xy · gpt.xz · gpt.yz
-
-두 번째 Result 단계
-→ 같은 3d 객체 1개가 다시 참여
-→ gpt.xyz
-→ Result.Data 형성
+External Data / Hint
+→ gpt.work@0d(t)
+→ gpt.x · gpt.y · gpt.z          [1d Data]
+→ gpt.xy · gpt.xz · gpt.yz       [2d Function]
+→ gpt.xyz                         [3d Result]
+→ gpt.logi@4d(xyzt)               [Overall Review]
+→ Reference Axis
 ```
 
 ```text
-Data · Function · Result
-=
-작업 단계
-
-gpt.x · gpt.y · gpt.z
-gpt.xy · gpt.xz · gpt.yz
-gpt.xyz
-=
-각 단계에 참여하는 차원 객체
+Cycle 1 → Reference Axis 1
+Cycle 2 → Reference Axis 2
+Cycle 3 → Final Reference Axis → Track DB
 ```
 
-첫 번째와 두 번째는 단계의 순서를 구분한다.
-객체의 이름이나 Identity를 새로 만드는 번호가 아니다.
+`0d(t)`는 외부·내부를 잇는 Transition·Transfer·Bridge이며 분석차원의 서열값이 아니다.
 
-### 통합관제 Seat
-
-`gpt.xyzt`는 위 1d·2d·3d의 7개 차원 객체와 다른 4d 통합관제 자리다.
+## Token.Data · Token DB · Track DB
 
 ```text
-Fixed Seat       : HRTDB_A::gpt.xyzt
-Fixed Role       : OVERALL_COORDINATION
-Current Occupant : gpt.logi
-```
+Token.Data
+→ 한 Process 상태를 결정화한 SHA-256 ZIP
 
-```text
-gpt.logi ─ OCCUPIES → HRTDB_A::gpt.xyzt
-```
-
-`gpt.logi`는 분석 Instance들의 산출물을 입력으로 받아 전체 Cycle을 검산하고, 자신의 **Result.Data 문서**를 형성한 뒤 Track DB 문서로 승격한다.
-
----
-
-## 5. gpt.logi — Track DB 통합관제
-
-### 원천 Data
-
-```text
-External Web Data
-+
-AI-held Data
-+
-Cycle 안에서 형성된 Data·Function·Result·Review 객체
-```
-
-### 생성 흐름
-
-```text
-External Web Data + AI-held Data
-→ 분석 Instance들의 Data·Function·Result
-→ gpt.logi 통합·검산
-→ Result.Data
-→ Promotion Gate
-→ Track DB Document
-→ GitHub Freeze·Registration
-```
-
-`gpt.logi`의 책임은 다음과 같다.
-
-- 입력 Object·Source·Boundary 검산
-- 상충·미해결·Correction 상태 보존
-- Result.Data 형성
-- Exact Byte Freeze
-- SHA-256·Filename·Repository Seat 결속
-- Index·Lineage·Source Map 등록
-- Commit·Tree·Remote Readback 검산
-- 다음 System이 참조할 수 있는 현재 경계 폐쇄
-
-```text
-Result.Data
-→ GitHub 등록 전 Runtime 결과상태
+Token DB
+→ 한 Cycle에서 검수된 Token.Data의 관계·계보
 
 Track DB
-→ HRTDB_A에 등록된 하나의 Result.Data 문서
-
-Track DB = Registered Result.Data Document
-```
-
----
-
-## 6. 하나의 Track DB는 하나의 문서다
-
-```text
-One Track DB
-=
-Database 성격을 가진 One Document
-```
-
-하나의 Track DB 문서는 내부에 Data Cell, Record, Source, Address, Index, Relation, Lineage, Conflict, Correction, Unresolved State, Open Future, Next Data Requirement를 포함할 수 있다.
-
-다음 객체는 Track DB 자체가 아니다.
-
-```text
-TrackDB Branch          ≠ Track DB Document
-06_track_db Directory   ≠ Track DB Document
-Aggregate Index         ≠ Track DB Document
-Closure Bundle          ≠ Track DB Document
-```
-
-정확한 관계:
-
-```text
-TrackDB Branch
-→ 여러 Track DB 문서를 보관하는 저장표면
-
-각 Hash-named Database Document
-→ 독립된 하나의 Track DB
-
-Registry·Index·Lineage·Closure
-→ Track DB 문서를 찾고 검산하는 보조객체
-```
-
-### 현재 Canonical Track DB 문서 대상
-
-다음 두 Canonical Result.Data는 각각 독립 Track DB 문서로 승격되는 대상이다.
-
-```text
-9dfff9d3a75cc7387f10ae2571190964c94b22213cf0a43077afbdfaf9507ba4
-72428e7ddf3ea03db711449f3930698e82e4961a25103f330fa482dc7262d65b
-```
-
-Phase 2A의 원격 등록 PASS는 보고되었으나, 최종 Complete State는 Exact Closure Evidence 검산 뒤에만 선언한다.
-
-### Track DB Head·Context Head 탐색층
-
-```text
-HRTDB_A@TrackDB:06_track_db/04_head/HEAD_INDEX.json
-→ Relevant Prefix Shard
-→ Relevant Head Object
-→ Selected Full Track DB
-```
-
-Current Head Contract:
-
-```text
-06_track_db/04_head/contracts/cf7dcf65f3732777db4920563cd2f344e607540914bc226eac180ec0890f8deb.A.md
+→ 3-Cycle Token DB
++ Reference Axis 계보
++ Evidence·Counterevidence·Gap
++ Validation·Lineage·Next-use Boundary
+를 담은 Active_Schema형 ZIP 전체
 ```
 
 ```text
-Head ≠ Track DB
-Context Head ≠ Track DB
+Track DB is not Markdown.
+Track DB Identity = Outer ZIP Exact-byte SHA-256.
 ```
 
----
+기존 Hash-named MD·Index·Head·Closure 객체는 History와 이전 계약의 Evidence로 보존한다. 이 문서정렬은 기존 자산을 덮어쓰거나 Release를 재작성하지 않는다.
 
-## 7. gpt.think — Hash DB 통합관제
+## GitHub Reality
 
-```text
-Fixed Seat       : LRSDoNet_B::gpt.xyzt
-Current Occupant : gpt.think
-Primary Asset    : Hash DB Document
-```
-
-`gpt.think`는 HRTDB_A가 형성한 Track DB 문서를 원천 Data로 읽는다.
+GitHub는 Content Identity·Version·Lineage·Remote Reality Surface다.
 
 ```text
-Track DB Document
-→ gpt.think 분석·통합·검산
-→ Result.Data
-→ Promotion Gate
-→ Hash DB Document
+Source
+→ Token.Data
+→ Token DB
+→ 3-Cycle Track DB
 → GitHub Freeze·Registration
+→ 다음 Cycle 또는 Downstream Source
 ```
 
-```text
-One Hash DB
-=
-Database 성격을 가진 One Document
-```
+`gpt.github`만 승인된 Assignment 안에서 Mutation을 구현하고, Remote HEAD·Commit·Tree·Blob·Exact Byte Fresh Readback으로 전이를 닫는다.
 
-- `gpt.logi`의 원천 Data: External Web Data + AI-held Data
-- `gpt.think`의 원천 Data: Track DB Documents
-- 공통 생성구조: Source Data → Result.Data → DB Document
-- 다른 승격목표: Track DB / Hash DB
+## Entry
 
-```text
-Track DB is not Hash DB.
-Knowledge Asset is not Analysis Asset.
-```
-
----
-
-### 7.1 HRTDB_A → LRSDoNet_B 원천 Data 진입경로
-
-`LRSDoNet_B::gpt.xyzt`의 통합관제 인스턴스 `gpt.think`가 HRTDB_A의 Track DB를 원천 Data로 사용할 때는 전체 Repository를 무차별 Scan하지 않는다.
-
-```text
-HRTDB_A main README
-→ TrackDB Branch README
-→ HRTDB_A_TO_LRSDoNet_B.md
-→ TRACK_DB_CATALOG.json
-→ HEAD_INDEX.json
-→ Relevant Prefix Shard
-→ Relevant Head Object
-→ Selected Full Track DB
-```
-
-Stable Entry Paths:
-
-```text
-TrackDB@README.md
-TrackDB@06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md
-TrackDB@06_track_db/00_interface/TRACK_DB_CATALOG.json
-TrackDB@06_track_db/04_head/HEAD_INDEX.json
-```
-
-읽기 원칙:
-
-```text
-Catalog Summary ≠ Full Track DB
-Head ≠ Full Track DB
-Track DB ≠ Hash DB
-Source Intake ≠ Repository Merge
-```
-
-`gpt.think`는 선택한 Full Track DB의 Exact Byte Hash·Git Blob·Branch Commit·Tree·Head Hash를 Source Intake에 기록하고, Conflict·Unresolved·Required Next Data를 삭제하지 않은 상태로 LRSDoNet_B의 분석입력으로 사용한다.
-
-자세한 계약은 TrackDB Branch의 다음 문서를 따른다.
-
-```text
-06_track_db/00_interface/HRTDB_A_TO_LRSDoNet_B.md
-```
-
----
-
-## 8. 공유상태와 재귀적 원천화
-
-`gpt.logi`와 `gpt.think`는 Result.Data·Track DB·GitHub Address·Hash·Lineage를 관계적으로 공유한다. 공유는 병합이 아니다.
+1. [Repository Identity](00_manifest/REPO_IDENTITY.md)
+2. [Current Status](00_manifest/CURRENT_STATUS.yaml)
+3. [Instance Entry Pointer](01_seat_model/INSTANCE_GENERATION_INDEX.md)
+4. [gpt.xyzt Seat Contract](01_seat_model/gpt.xyzt.md)
+5. [Current Seat and System Summary](01_seat_model/active_schema_v2/SEAT_SYSTEM_SUMMARY.md)
+6. [Intro Canonical Entry Router](https://github.com/SeungeFlow/Intro/blob/main/01_entry/INSTANCE_GENERATION_INDEX.md)
 
 ```text
 relation is not merge.
@@ -388,339 +115,3 @@ relation is interconnecting.
 structure is not isolate.
 structure is relation processing.
 ```
-
-GitHub에 Exact State로 등록된 다음 객체들은 이후 Cycle의 원천 Data가 된다.
-
-```text
-gpt.logi State·Directive·Result Documents
-gpt.think State·Directive·Result Documents
-Result.Data Documents
-Track DB Documents
-Hash DB Documents
-Index·Lineage·History·Correction·Closure Evidence
-```
-
-동일 Cycle의 산출물을 동일 Cycle의 자기 입력으로 다시 투입하지 않는다.
-
-```text
-Cycle N Output
-→ GitHub Freeze·Closure
-→ Cycle N+1 Source Data
-```
-
----
-
-## 9. Repository A/B/C 경계
-
-| Repository Seat | Current Repository | Former Name | 역할 |
-|---|---|---|---|
-| A | `SeungeFlow/HRTDB_A` | `for_instance` | Result.Data를 Track DB 문서로 승격·등록하는 지식자산 System |
-| B | `SeungeFlow/LRSDoNet_B` | `Relation` | Track DB 문서를 원천 Data로 읽어 Hash DB 문서를 형성하는 분석·응용 System |
-| C | `SeungeFlow/Principle_C` | `Bridge` | 구조원리·공통문법·분석기준 자산 Field |
-
-```text
-Repository Display Name ≠ Repository Fixed Seat
-Given Name may change.
-Seat Code A/B/C does not change.
-```
-
----
-
-## 10. Active_Schema Publication Binding
-
-### HRTDB_A::gpt.xyzt 통합관제 전달 Package
-
-- Zenodo Record: <https://zenodo.org/records/21498643>
-- Published: `2026-07-23`
-- Version: `1.0.0`
-- Title: `Active_Schema: HRTDB_A::gpt.xyzt 통합관제 인스턴스 전달지시체계`
-- Exact ZIP Filename: `49670e465bf466556d2658b67bd2f479dab32a3b586e781448866a50956cac86.A.zip`
-- Exact ZIP SHA-256: `49670e465bf466556d2658b67bd2f479dab32a3b586e781448866a50956cac86`
-
-이 Package는 독립된 결정상태 File들을 하나의 의미로 병합하지 않는다.
-
-```text
-File     = 결정화 상태 Cell
-ZIP      = 다중 상태 운송체
-Manifest = Current·Superseded·Pending·Historical 관계지도
-```
-
-Package 안의 `DOI_PENDING`은 게시 전 동결상태이며, 외부 Zenodo Record는 게시 후 상태다. 두 상태를 삭제·병합하지 않고 Publication Transition으로 읽는다.
-
----
-
-## 11. File Identity와 등록주소
-
-Current Contract:
-
-```text
-00_manifest/7e317d73e0695187852ee80c4af5c175208be3833a9d6bef6f68c7e206a8e6a4.A.md
-```
-
-AI 인스턴스는 설명형 파일명이나 Framework `(숫자)` suffix만으로 객체를 선택하지 않는다.
-
-### Runtime Source Object
-
-```text
-<64 lowercase SHA-256 of exact bytes>.<extension>
-```
-
-### HRTDB_A Seat-A Registered Object
-
-```text
-<64 lowercase SHA-256 of source body>.A.<extension>
-```
-
-- SHA-256은 Exact File Byte Identity다.
-- `.A`는 Repository Seat A 등록표지다.
-- Byte가 바뀌면 새 Hash와 새 File을 만든다.
-- 기존 Hash-named Object는 덮어쓰지 않는다.
-- 다운로드 과정에서 붙은 `(1)`, `(2)` 같은 suffix는 Transport Name이며 Canonical Identity에서 제외한다.
-
----
-
-## 12. Operation과 Mutation Authority
-
-원격 변경권한은 일반 Instance 역할과 분리한다.
-
-```text
-승이·gpt.logi 구조판정
-→ 변경대상 File 생성
-→ Exact Byte·Hash 검산
-→ gpt.github 실행지시
-→ Terminal Git 작업
-→ Commit·Push
-→ Remote Readback
-→ Closure Evidence
-```
-
-금지경계:
-
-```text
-force push 금지
-force-with-lease 금지
-reset 금지
-history rewrite 금지
-branch recreation 금지
-branch delete 금지
-repository delete·recreate 금지
-승인 없는 GitHub Web Edit 금지
-Atomic Push 실패 시 non-atomic fallback 금지
-```
-
-자세한 Mutation Authority는 [`06_operation/MUTATION_AUTHORITY.md`](06_operation/MUTATION_AUTHORITY.md)를 따른다.
-
----
-
-## 13. 현재 운영상태
-
-```yaml
-repository:
-  name: HRTDB_A
-  seat_code: A
-  former_name: for_instance
-
-rule_layer:
-  name: for_instance
-  state: ACTIVE
-
-overall_coordination:
-  fixed_seat: HRTDB_A::gpt.xyzt
-  current_occupant: gpt.logi
-
-track_db:
-  canonical_document_candidates: 2
-  phase2A_registration: REPORTED_PASS_PENDING_EXACT_CLOSURE_VERIFICATION
-
-LRSDoNet_B:
-  phase2AB_readme_only_minimalization: NOT_YET_COMPLETE
-
-complete_referenceable_state:
-  verdict: HOLD
-```
-
-다음 판정은 현재 선언하지 않는다.
-
-```text
-PASS_HRTDB_A_COMPLETE_REFERENCEABLE_STATE
-```
-
-최소 Complete State Gate:
-
-```text
-Seat·Runtime 역할 고정
-Object Set 폐쇄
-Member Byte·Hash 검산
-Current·Superseded·Pending 분리
-Track DB Document·Registry·Lineage 결속
-Repository Commit·Tree·Remote Readback
-Active_Schema 외부 게시 Address 결속
-다음 System Interface 선언
-Blocking·Unresolved 상태 보존
-```
-
----
-
-## 14. Repository 읽기 경로
-
-1. [`00_manifest`](00_manifest/REPO_IDENTITY.md) — Repository Identity·Purpose·Current State·Boundary
-2. [`File Object Identity Contract`](00_manifest/7e317d73e0695187852ee80c4af5c175208be3833a9d6bef6f68c7e206a8e6a4.A.md) — Hash Filename·Transport Suffix·A/B/C Seat
-3. [`01_seat_model`](01_seat_model/README.md) — Seat·Instance·Occupation·X/Y/Z/T
-4. [`gpt.xyzt`](01_seat_model/gpt.xyzt.md) — 고정 통합관제 Seat와 현재 Occupant
-5. [`02_instance_registry`](02_instance_registry/README.md) — Instance·Capability Registry
-6. [`03_relation_interface`](03_relation_interface/README.md) — Assignment Request·Response·Handoff
-7. [`04_assignment`](04_assignment/README.md) — Assignment 객체와 예제
-8. [`05_team_profiles`](05_team_profiles/README.md) — Generic Seat Profile
-9. [`06_operation`](06_operation/ASSIGNMENT_METHOD.md) — 운영·Directive·Mutation 계약
-10. `HRTDB_A@TrackDB:06_track_db/04_head/HEAD_INDEX.json` — Track DB 선택검색 Root Index
-11. [`07_tests`](07_tests/README.md) — 구조·운영 무결성 Test
-12. [`08_history`](08_history/README.md) — 변경·교정·Closure 계보
-13. [`09_active_schema_binding`](09_active_schema_binding/README.md) — Zenodo·Active_Schema 접속표면
-
----
-
-## 15. Relation Interface
-
-기존 `for_instance` Assignment Interface는 유지한다.
-
-- Request: [`03_relation_interface/instance_assignment_request.yaml`](03_relation_interface/instance_assignment_request.yaml)
-- Response: [`03_relation_interface/instance_assignment_response.yaml`](03_relation_interface/instance_assignment_response.yaml)
-- Handoff: [`03_relation_interface/instance_handoff.yaml`](03_relation_interface/instance_handoff.yaml)
-
-Generic Assignment와 HRTDB Cycle Occupation은 같은 객체가 아니다.
-
-```text
-Generic Seat Profile Assignment
-≠ HRTDB Cycle Occupation Assignment
-≠ Overall Coordination Occupancy
-≠ GitHub Execution Assignment
-```
-
----
-
-## 16. Non-Claims
-
-이 Repository와 현재 README는 다음을 주장하지 않는다.
-
-```text
-Result.Data가 Track DB와 동일하다.
-TrackDB Branch가 하나의 Track DB다.
-여러 Track DB 문서가 하나의 DB 문서로 병합된다.
-gpt.logi가 Hash DB 분석을 직접 수행한다.
-gpt.think가 외부 Web Data를 HRTDB_A와 같은 방식으로 원천수집한다.
-gpt.xyzt와 gpt.logi가 동일한 Identity다.
-for_instance가 제거해야 할 Legacy 문자열이다.
-현재 Phase 2AB Remote Closure가 완료되었다.
-현재 HRTDB_A가 이미 Complete Referenceable State다.
-```
-
----
-
-## 17. 핵심 구조 요약
-
-```text
-External Web Data + AI-held Data
-→ gpt.logi@HRTDB_A::gpt.xyzt
-→ Result.Data
-→ Track DB Document
-→ GitHub HRTDB_A
-→ gpt.think@LRSDoNet_B::gpt.xyzt
-→ Result.Data
-→ Hash DB Document
-→ GitHub LRSDoNet_B
-→ Future Source Data
-```
-
-```text
-source precedes interpretation.
-process precedes result.
-result is next data.
-relation is not merge.
-relation is interconnecting.
-structure is not isolate.
-structure is relation processing.
-```
-
-<!-- WEFX_R01_CURRENT_OPERATION_SNAPSHOT_START -->
-## WEFX-R01 작업기록
-
-이 절은 운영원칙을 고정하기 위한 문서가 아니다.
-
-현재까지 실제로 형성된 작업과 다음 인스턴스가 확인할 수 있는
-Exact Object·Remote Closure 위치를 남기는 기록이다.
-다음 인스턴스는 자신의 고유성질과 당시 입력상태에 맞게
-작업방법·읽기순서·질문구조를 다시 형성할 수 있다.
-
-```yaml
-identity_codes:
-  A: HRTDB_A
-  B: LRSDoNet_B
-  C: Principle_C
-
-file_identity:
-  rule: <exact-byte-sha256>.<identifier-code>.<extension>
-  external_sha256_sidecar_required: false
-```
-
-```yaml
-WEFX_R01_record:
-  repository: HRTDB_A
-  identifier_code: A
-  completing_occupant: gpt.logi
-  fixed_seat: HRTDB_A::gpt.xyzt
-  formal_flow_completed:
-    - 1D_SOURCE_MAP_COLLECTION
-    - FIRST_2D_CROSS_VERIFICATION
-    - FIRST_3D_SOURCE_MAP_RESULT_DATA_FORMATION
-    - SECOND_2D_RESULT_DATA_REAUDIT
-    - SECOND_3D_PROMOTION_CANDIDATE_FORMATION
-    - 4D_FINAL_DUAL_VIEW_VERIFICATION
-
-  exact_objects:
-    track_db_body_sha256: f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b
-    four_dimensional_verification_sha256: 3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16
-    track_db_index_sha256: 9f4b35e435db48acbae5c701e2c305381e0914b04204b4a827348e9c35c0dd5b
-    track_db_lineage_sha256: fbdf6145919114d9c45269476b7672d83434229711d3b7c7328d6c918387d02b
-    track_db_head_object_sha256: a8bad44fdf05c455fe773351f0a7c1a278144254f3538233085f04e8b9eaf81a
-    track_db_promotion_sha256: f630140293890dc0f74fe5d9b5e57e4567e1d75db1576fe0b750798052c9bcf4
-    deployment_package_sha256: dceb2aa9bcde9a1ebda865becec0655f2f097100e89164c6f1014575a2d0f02a
-
-  remote_closure:
-    trackdb_commit: d40c2f1f2662142b51cee90793175c5f69802293
-    trackdb_tree: 18bce45584de0e3d248e8574820fc82f827bf4ae
-    main_commit: BOUND_BY_MAIN_CLOSURE_EVIDENCE
-
-  current_boundary:
-    track_db_scope: SOURCE_MAP_WITH_TYPED_GAP_TRACKS
-    observation_layer: NOT_OPEN
-    typed_gap_count: 14
-```
-
-이번 Cycle에서 수행된 실제 흐름:
-
-```text
-Source Map 설계
-→ 7개 분석자리 배치
-→ 1d·2d·3d·2d·3d 형성
-→ 80개 Patch 결속
-→ 4d 최종검수
-→ Track DB 승격후보 형성
-→ GitHub 등록 및 인수인계 문서 갱신
-```
-
-```text
-Track DB Body
-=
-f0545752cfc15fc11e318787eb87ddf1992095f7580c5f6ec99890d337647c3b.A.md
-
-4d Verification Evidence
-=
-3a5c7f0a3743a2c022921a84088d416f2f2709a7a823cb8dd64122a54b18cb16.A.md
-
-둘은 서로 다른 객체다.
-```
-
-다음 인스턴스는 이 기록을 현재 원격상태와 대조하여 사용한다.
-이 기록을 고정된 작업방식이나 영구 운영규칙으로 해석하지 않는다.
-
-<!-- WEFX_R01_CURRENT_OPERATION_SNAPSHOT_END -->
