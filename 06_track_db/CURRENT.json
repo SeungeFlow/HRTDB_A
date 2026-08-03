@@ -1,0 +1,13 @@
+{
+  "reference_axis_set_fingerprint": "3a82820f3978e1800bf58769663dcfb94b8966a749880386216416885eb27550",
+  "relation_graph_fingerprint": "a7384ef5fc4139d54c53f20b81e3266b21dce93ab9b3b228d9c2ab8f2258b093",
+  "singularity_register_blob": "72c5ab10ce4de4f7915fd8efccf3aa5ef40fcd39",
+  "singularity_register_commit": "cf613b37ef91727234cbfc456f3c1ed6332a7eeb",
+  "source_set_fingerprint": "5294ca678685a7f5658fc047b9d1e417d29141d94fb5c9fede52c35d119d0478",
+  "source_token_bytes": 1381718,
+  "source_token_count": 62,
+  "state": "REGISTERED",
+  "token_db_namespace": "06_track_db/token_db/fc73f67e6e1c7bc7acdc9702e87d0a25eba1fe385d287c541e351ffe18ed4287",
+  "track_db_path": "06_track_db/track_db/fc73f67e6e1c7bc7acdc9702e87d0a25eba1fe385d287c541e351ffe18ed4287.A.zip",
+  "track_db_sha256": "fc73f67e6e1c7bc7acdc9702e87d0a25eba1fe385d287c541e351ffe18ed4287"
+}
